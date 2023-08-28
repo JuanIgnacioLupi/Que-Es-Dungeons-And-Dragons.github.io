@@ -1,0 +1,81 @@
+#DungeonsAndDragons{
+  font-size: large;
+  color: red  ;
+}
+
+h3,h2{
+  text-align: center
+}
+
+body, html {
+    height: 100%;
+    font-family:"Modesto", sans-serif;
+    background-color: #ffffff;
+  }
+  
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("Imagenes/Portada.jpg");
+    min-height: 75%;
+  }
+  
+.menu {
+    display: none;
+  }
+
+
+.ContenedorDeCartas{
+   height:750px;   
+ }
+
+.Cartas{
+   float:center;
+   padding:20px;
+   width:300px;
+   margin:340px;
+   margin-top: 10px;
+   
+ }
+
+.Cartas002{
+  float:center;
+  padding:20px;
+  width:300px;
+  margin:340px;
+  margin-top: 10px;
+}
+
+.Footer{
+     height:50px;
+     width:100%;
+     bottom:0;
+     position: fixed; 
+        
+ }
+
+.mySlides002 {display:none;}
+
+.city {display:none}
+ 
+.ContenedorDeCartasRazas{
+  height:750px; 
+ }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+ p{
+  font-size:large;  
+   
+ }
+
+
+
+

@@ -1,0 +1,2058 @@
+<!DOCTYPE html>
+<html>
+  <!-- Head -->
+<head>
+<title class="w3-red">Dungeons And Dragons</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<script src="https://kit.fontawesome.com/51079e38a8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Estilos.css">
+<link rel="icon" type="image/png" href="Imagenes\Icono.png">
+</head>
+<body  id="Body">
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-red">
+    <div class="w3-col"style="width:25%">
+      <a href="#" class="w3-button w3-block w3-red">Inicio</a>
+    </div>
+    <div class="w3-col "style="width:25%">
+      <a href="#about" class="w3-button w3-block w3-red">Sobre D&D</a>
+    </div>
+    <div class="w3-col "style="width:25%">
+      <div class="w3-dropdown-hover">
+        <button class="w3-button w3-red">¿Cómo se juega?</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="#ComoJugar" class="w3-bar-item w3-button">Como Jugar</a>
+          <a href="#Personajes" class="w3-bar-item w3-button">Creación De Personajes</a>
+          <a href="#Alineaciones" class="w3-bar-item w3-button">Alineaciones</a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col "style="width:25%">
+      <div class="w3-dropdown-hover">
+        <button class="w3-button w3-red">Clases y Razas</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="#Clases" class="w3-bar-item w3-button">Clases</a>
+          <a href="#Razas" class="w3-bar-item w3-button">Razas</a>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+
+</div>
+
+<!-- Header -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag w3-red">D&D 5th Edition</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-family:Modesto; font-size:70px">Dungeons<br>And<br>Dragons</span>
+  </div>
+</header>
+
+<!-- Introduccion -->
+<div class="w3-container Contenido" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-red">Sobre Dugeons And Dragons</span></h2>
+    <p><span id="DungeonsAndDragons">Dungeons & Dragons (D&D)</span> es un juego de rol.<br>
+      Es un juego de aventuras de fantasía. Creas un personaje, que se une a otros personajes (tus amigos) para explorar un mundo y luchar contra monstruos. Aunque D&D utiliza dados y miniaturas, la acción tiene lugar en nuestra imaginación, donde todos tenemos la libertad para crear cualquier cosa que podamos imaginar </p>
+    <p>Para jugar a D&D una persona debe adoptar el papel de Dungeon Master (DM), que es la persona que se ocupará de narrar la historia y arbitrar el juego. El DM crea aventuras para los personajes y narra la acción para los jugadores. El DM preprara el escenario, pero nadie sabe qué va a suceder hasta que los personajes hacen algo y entonces suceden cosas. Puedes explorar un oscuro subterráneo, una ciudad en ruinas, un templo perdido en las profundidaes de la jungla o una caverna llena de lava bajo una misteriosa montaña. Resuelves acertijos, hablas con otros personajes, combates contra toda clase de monstruos fantásticos, y descubres fabulosos objetos mágicos.<br>D&D es un juego cooperativo, en el cual tus amigos y vos trabajan juntos para completar cada aventura y divertirse. Es un juego narrativo, en el que el único límite es la imaginación. Tus acciones pueden funcionar o fracasar espectacularmente, pero en cualquier caso habrás contribuido a la historia que se está desarrollando en la aventura, y probablemente te hayas divertido en el proceso.<br>El juego no tiene un auténtico final: cuando terminan una historia , pueden empezar otra. Mucha gente que juega a D&D prolonga sus partidas durante meses o años, reuniéndose con sus amigos cada semana para retomar la historia en el punto donde la dejaron.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Los juegos te dan la oportunidad de sobresalir, y si juegas en buena compañía, ni siquiera te importa si pierdes porque disfrutaste de la compañía durante el transcurso del juego"“ <br>——Gary Gygax  </p>
+    </div>
+    <img src="Imagenes\Dungeon.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Como jugar Container -->
+
+<br>
+<br>
+<div class="w3-container" id="ComoJugar">
+  <div class="w3-content">
+    <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-red">Como jugar</span></h2>
+    <div class="w3-panel w3-leftbar w3-red">
+      Si queres aprender mas a profundidad sobre el juego te dejamos el Manual del jugador en formato PDF para que la leas o descargues! 
+      <strong><a href="ManualJ.pdf" target="_blank">PDF Manual Del Jugador</a></strong>
+    </div>
+    <h3><strong><u>Junta un Grupo</u></strong></h3>
+    <p>Cuatro o cinco jugadores más el Dungeon Master es un buen número. Es una cantidad manejable de jugadores para que el Dungeon Master pueda realizar un seguimiento, todos pueden caber alrededor de una mesa de comedor y permite una buena cantidad de interacción y estrategia del jugador.
+    </p>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong><u>Decide quién será el Dungeon Master</u></strong></h3>
+    <div class="w3-panel w3-leftbar w3-red">
+      En mazmorras y Dragones hay jugadores que controlan cada uno a un aventurero, y está el Dungeon Master (DM) que controla todo lo demás.
+    </div>
+    <p>El DM tiene un papel importante y decidir quién será esto sucederá mucho antes de la primera sesión de D&D.</p>
+    <p id="Personajes">Esto le da tiempo al DM para preparar la historia y los encuentros con los monstruos.
+      </p>
+    <hr  style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong><u>Crea los personajes</u></strong></h3>
+    <div class="w3-panel w3-leftbar w3-red">
+      Cada jugador crea un personaje al completar su hoja de personaje de acuerdo con el Manual del jugador. (<strong><a href="ManualJ.pdf" target="_blank">PDF Manual Del Jugador</a></strong>)
+    </div>
+    <p>La hoja de personaje contiene todas las estadísticas básicas del jugador, como defensa, salud y habilidades. También enumera el nombre de los personajes, habilidades, equipo, nivel, puntos de experiencia, etc. </p> 
+    <div class="w3-panel w3-leftbar w3-red"> 
+      <strong><a href="Hoja.pdf" target="_blank">PDF De hoja de personaje</a></strong>
+    </div>
+    <p>La hoja de personaje generalmente se completa con lápiz para que los detalles se puedan borrar y actualizar a medida que su personaje avanza en sus aventuras.</p>
+    <p>Una decisión clave para la mayoría de los jugadores es qué raza y clase serán. Cada raza y clase tiene sus propios rasgos y constituye el punto de partida para la creación de tu personaje.</p>
+    <div class="w3-panel w3-leftbar w3-red">
+      ¿Eres un orco grande y corpulento que no puede esperar para golpear cosas?<br>
+      ¿Eres un pícaro elfo astuto que acechará en las sombras y atacará a los malos desprevenidos?
+    </div>
+    <p>Otra decisión importante es la alineación del personaje, que influirá en las decisiones que tome el personaje durante el juego. Hay nueve alineaciones que van desde Lawful Good hasta Chaotic Evil,<strong>Puedes ver mas sobre las Alineaciones dando Click <a href="#Alineaciones">Alineaciones </a></strong> </p>
+    <p class="w3-red"> Te dejamos un video Explicativo para entiendas mejor!</p>
+    <iframe width="950" height="500" src="https://www.youtube.com/embed/W--9KUmIjbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong><u>Determina las Puntuaciónes de característica</u></strong></h3>
+      <p>Gran parte de lo que tu personaje hace en el juego depende de sus seis atributos:<strong> Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma.</strong> Cada característica tiene una puntuación, la cual es el número que anotarás en tu hoja de personaje.</p>
+      <p>Generas las 6 puntuaciones de característica de tu personaje de forma aleatoria. Lanza 4 dados de 6 caras y apunta en una hoja de papel la suma total de los números de los 3 dados con la puntuación más alta. Realiza esta acción cinco veces, por lo que en total tendrás seis números. Si quieres ahorrar tiempo o no le gusta la idea de determinar al azar las puntuaciones de característica, puedes utilizar las siguientes puntuaciones en su lugar: 15, 14, 13, 12, 10, 8.</p>
+      <p>Ahora coge los seis números y escribe cada número al lado de uno de tus seis características de personaje para asignar puntuaciones a Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma. Después, realiza los cambios en las puntuaciones de característica como resultado de tu elección de la raza del personaje.</p>
+      <p>Después de asignar las puntuaciones de característica, determina tus modificadores de característica usando sus puntuaciones y la Tabla de modificadores. </p>
+      <p><strong>Ej para usar la tabla de Modificadores</strong></p>
+      <p>Jorge el Barbaro necesita levantar una piedra,el DM pide que tire un D20 y si sale mayor a 15 puede levantarla<br> *Tira dado* Sale 13 ,ahora es cuando se tiene en cuenta la tabla<br>Si Jorge el Barbaro tiene 16 de Fuerza o más podria levantar la piedra por que se sumaria (+3) a la tirada  </p>
+      <br>
+      <table>
+        <strong>Puntuaciones de características y modificadores</strong>
+        <tr>
+          <th>Puntuacion</th>
+          <th>1</th>
+          <th>2-3</th>
+          <th>4-5</th>
+          <th>6-7</th>
+          <th>8-9</th>
+          <th>10-11</th>
+          <th>12-13</th>
+          <th>14-15</th>
+          <th>16-17</th>
+          <th>18-19</th>
+          <th>20-21</th>
+          <th>22-23</th>
+          <th>24-25</th>
+          <th>26-27</th>
+          <th>28-29</th>
+          <th>30</th>
+
+
+        </tr>
+        <tr>
+          <th>Modificador</th>
+          <th>-5</th> 
+          <th>-4</th>
+          <th>-3</th>
+          <th>-2</th>
+          <th>-1</th>
+          <th>+0</th>
+          <th>+1</th>
+          <th>+2</th>
+          <th>+3</th>
+          <th>+4</th>
+          <th>+5</th>
+          <th>+6</th>
+          <th>+7</th>
+          <th>+8</th>
+          <th>+9</th>
+          <th>+10</th>  
+        </tr>
+      </table>
+      <p><strong>Sumario de puntuaciones de característica</strong></p>
+      <div>
+        <p><strong>Fuerza</strong><br>
+        Mide: atletismo natural, energía corporal<br>
+        Importante para: guerrero
+        </p>
+      </div>
+      <div>
+      <p>
+        <strong>Destreza</strong><br>
+        Mide: agilidad física, reflejos y equilibrio.<br>
+        Importante para: pícaro
+      </p>
+      </div>
+      <div>
+      <p>
+        <strong>Constitución</strong><br>
+        Mide: agilidad física, reflejos y equilibrio.<br>
+        Importante para: guerrero
+      </p>
+      </div>
+      <div>
+      <p>
+        <strong>Inteligencia</strong><br>
+        Mide: la agudeza mental, recordar información, habilidad analítica<br>
+        Importante para: mago
+      </p>
+      </div>
+      <div>
+        <p>
+        <strong>Sabiduría</strong><br>
+        Mide: percepción, intuición<br>
+        Importante para: clérigo
+        </p>
+      </div>
+      <div>
+      <p>
+        <strong>Carisma</strong><br>
+        Mide: la confianza en uno mismo, la elocuencia, el liderazgo<br>
+        Importante para: personajes líderes y diplomáticos
+      </p>
+      </div>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong><u>Seleccione una aventura</u></strong></h3>
+    <p>Esto es lo que van a hacer tus personajes. El Dungeon Master puede diseñar una aventura propia, puede comprar una preparada previamente </p>
+    <img src="Imagenes\Dragon003.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong><u>Prepararlo</u></strong></h3>
+    <div class="w3-panel w3-leftbar w3-red">
+      Dungeons and Dragons no necesita un tablero para jugar.
+    </div>
+    <p>La aventura puede comenzar en un lugar como un pueblo, aldea o ciudad, en cuyo caso su grupo hablará sobre lo que está sucediendo sin representar lo que está sucediendo en un tablero. Voy a dirigirme al intendente e intentar hacer un trato con un nuevo arco.</p>
+    <p>Cuando te encuentras en un encuentro físico, puede ser útil tener un tablero que muestre dónde están todos los personajes y monstruos entre sí.</p>
+    <p>Dungeons & Dragons El juego de mesa contiene tableros, miniaturas de personajes y monstruos y una aventura. Pero el juego de rol no usa un tablero como tal.</p>
+    <div class="w3-panel w3-leftbar w3-red" id="HacerCosas">
+      Algunos grupos usan una pizarra y dibujan la forma del entorno en cuadrados de 1 × 1 pulgada. A mi grupo le gustaba usar mapas impresos y miniaturas. Algunos grupos no usan una pizarra ni un boceto.
+    </div>
+    <h3 ><strong><u>Hacer cosas</u></strong></h3>
+    <div class="w3-panel w3-leftbar w3-red">
+      Con dados e imaginación todo es posible.
+    </div>
+    <p>Hay 7 tipos de dados necesarios para jugar D&D.</p>
+    <ul>
+      <li>Dados de 4 caras</li>
+      <li>Dados de 6 caras</li>
+      <li>Dados de 8 caras</li>
+      <li>Dados de 10 caras</li>
+      <li>Dados de 12 caras</li>
+      <li>Dados de 20 caras</li>
+      <li>Percentil (que es un dado de 10 caras pero con porcentajes en lugar de números individuales)</li> 
+    </ul>
+    <p>Pero hay un dado, en particular, que se usa cuando los jugadores quieren hacer algo: el dado de veinte caras o D20.</p>
+    <div class="w3-panel w3-leftbar w3-red">
+      El D20 es un dado icónico para juegos de rol.
+    </div>
+    <p>Cuando un jugador quiere hacer algo, tira un D20 para ver si tiene éxito o no. A esto se le llama cheque de lista. Cuanto mayor sea el resultado, más probabilidades hay de que el jugador tenga éxito.</p>
+    <br>
+    <strong>Hay tres tipos principales de tiradas</strong>
+    <ol>
+      <li><strong>Causar daño</strong>: intentar golpear a un Goblin con una flecha.</li>
+      <li><strong>Usar una habilidad</strong>:usa la habilidad de Persuasión para tratar de convencer a un guardia de la ciudad para que te deje entrar en la casa de un noble.</li>
+      <li><strong>Usar una habilidad sin una habilidad asociada </strong>:tratar de mover una roca sobre una placa de presión de trampa necesitaría una tirada de Fuerza. </li>
+    </ol>
+    <p>El resultado de los dados se agrega a las estadísticas de la hoja de personaje para dar el resultado final. El total se compara con el número objetivo (que a veces proviene de las reglas y, a veces, del Dungeon Master), si es más alto, el jugador tiene éxito - ¡hurra!</p>
+    <h4><strong>Fallos críticos y golpes críticos</strong></h4>
+    <p>Los grupos de D&D a menudo usan las reglas Fallos Criticos y Golpes Criticos para divertirse un poco.</p>
+    <h5><strong>Un Fallo crítico ocurre cuando un jugador saca un 1 en una tirada.</strong></h5>
+    <p>Cuando esto sucede, no solo fallan en la verificación de rollo, sino que también sucede algo malo. En lugar de simplemente fallar en dar una voltereta hacia atrás sobre el oso insecto, volteaste hacia atrás directamente hacia ellos y ahora estás tendido boca abajo en el piso</p>
+    <h5><strong>Si un jugador saca 20, ha obtenido un golpe crítico.</strong></h5>
+    <p>No solo tienen éxito, también sucede algo increíble. Cuando haces una voltereta hacia atrás sobre el oso insecto, pateas al goblin que está detrás de ellos en la cara y quedan boca abajo para el siguiente turno.</p>
+    <h3><strong><u>Como ganas</u></strong></h3>
+    <div class="w3-panel w3-leftbar w3-red">
+      Dungeons and Dragons es el juego que no puedes ganar, pero que normalmente lo haces.
+    </div>
+    <p>No hay "ganar" en el sentido tradicional. No es el primer jugador en 100 puntos o nivel 10 ni nada por el estilo.</p>
+    <p>Dicho esto, a lo largo del camino, su grupo experimentará pequeñas victorias que se sienten como victorias.</p>
+    <ul>
+      <li>Sube de nivel a tu personaje y obtén mejores estadísticas y habilidades</li>
+      <li>Encontrar un amuleto encantado que otorga puntos de vida adicionales a tu personaje.</li>
+      <li>Eliminando con éxito una cueva de orcos que han estado perturbando la ciudad local</li>
+    </ul>
+    <div class="w3-panel w3-leftbar w3-red">
+      Al final de una sesión, si todo el mundo se ha divertido, has ganado.
+    </div>
+    <p>Una aventura típica puede durar un par de horas, pero una campaña puede durar varias sesiones. Un grupo de Dungeons and Dragons puede reunirse para un día de juego en el que avanzan a través de varias aventuras en un día.</p>
+  <div id="Alineaciones">
+    <br>
+    <br>
+    <h2 id=><strong><u>Alineaciónes</u></strong></h2>
+    <p>Cuando creas un personaje para D&D, deberás elegir una alineación. Este artículo explica las nueve alineaciones D&D diferentes, además de ejemplos de personajes conocidos que se ajustan a cada alineación.</p>
+    <br>
+    Las nueve alineaciones de Dungeons And Dragons son:
+    <ul>
+      <li><strong>Lawful Good(Legalmente Bueno)</strong></li>
+      <li><strong>Neutral Good(Buen neutral)</strong></li>
+      <li><strong>Chaotic Good(Bien caotico)</strong></li>
+      <li><strong>Lawful Neutral(Legal Neutral)</strong></li>
+      <li><strong>Neutral</strong></li>
+      <li><strong>Chaotic Neutral(Neutral caótico)</strong></li>
+      <li><strong>Lawful Evil(Legalmente malvado) </strong></li>
+      <li><strong>Neutral Evil(Maldad neutral)</strong></li>
+      <li><strong>Chaotic Evil(Mal caótico)</strong></li> 
+    </ul>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong>¿Para qué se utilizan las alineaciones</strong></h3>
+    <p>Tu alineación guía cómo actúa tu personaje y cómo responde a las situaciones. No es un conjunto de reglas súper restrictivas que siempre debes seguir. Nadie sigue sus propias reglas todo el tiempo, ¿verdad?</p>
+    <p>Las alineaciones son una guía útil sobre cómo actúa y se comporta tu personaje en general. Puede ayudarte a interpretar a tu personaje de una manera que se sienta auténtica y fiel a lo que es. </p>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong>¿Cómo funcionan las alineaciones?</strong></h3>
+    <p>Las alineaciones suelen tener dos palabras. Tomemos el ejemplo de Lawful Good. </p>
+    <p>La primera parte de la alineación, 'Legal' describe la ética de esa alineación. La sección de ética de la alineación indica la perspectiva de ese personaje sobre la sociedad en su conjunto. ¿Respetan la autoridad o se rebelan contra ella? ¿Les gusta el orden y la jerarquía o prefieren la individualidad y la libertad?</p>
+    <p>La segunda parte de la alineación, 'Bueno', describe la moral de esa alineación. ¿Pisotearán a otros para conseguir lo que quieren o quieren ayudar a otros? ¿Harán daño a las personas por diversión o las protegerán a toda costa?</p>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong>La tabla de alineación</strong></h3>
+    <p>Las nueve alineaciones existen en un gráfico. Ética (Legal, Neutral y Caótica) en un eje y moral (Bien, Neutral y Mal) en el otro eje. </p>
+    <br>
+    <div class="w3-panel w3-leftbar w3-red">
+      Haga click en la tabla para ver detalles!
+    </div>
+    <br>
+    <table style="width:100%">
+      <tr>
+        <td class="w3-aqua"> 
+          <button onclick="document.getElementById('id00001').style.display='block'" class="w3-button w3-aqua">Permitido Por La Ley</button>
+          <div id="id00001" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+             <header class="w3-container w3-amber"> 
+             <span onclick="document.getElementById('id00001').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+            <h2>Permitido Por La Ley</h2>
+             </header>
+            <div class="w3-container w3-white">
+              <p>Los personajes de Lawful Good siempre hacen lo correcto como lo espera la sociedad. Siempre siguen las reglas, dicen la verdad y ayudan a la gente. Les gusta el orden, confían y creen en las personas con autoridad social, y aspiran a ser ciudadanos honrados.
+              <p>Los personajes de Lawful Good creen en las reglas sociales porque benefician a todos. Si todos siguieran sus propias reglas, habría caos y la gente podría terminar lastimándose unos a otros. 
+              <p>La justicia es realmente importante para los personajes de Lawful Good. Si alguien no sigue las reglas, el sistema debe juzgarlo con justicia. Se enojan cuando la gente se sale con la suya al romper las reglas.
+              <p>También creen que el buen comportamiento y las buenas acciones serán recompensados. 
+              <p>Un buen carácter legal se mantiene a sí mismo con los mismos estándares que los demás. Muy raramente, si acaso, rompen las reglas. Si rompen las reglas, se sentirán extremadamente incómodos al hacerlo.
+              <p>Los personajes de Lawful Good tienen algunos inconvenientes. Pueden ser irritantemente inflexibles en sus creencias. Pueden parecer arrogantes y farisaicos. Es posible que no comprendan por qué un individuo buscaría su propia libertad e intereses por encima del bien común. 
+           </div>
+                 <footer class="w3-container w3-aqua"></footer>
+          </div>
+        </div>
+      </td>
+        <td class="w3-green">
+          <button onclick="document.getElementById('id0002').style.display='block'" class="w3-button w3-green">Bueno Neutral</button>
+            <div id="id0002" class="w3-modal">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-green"> 
+                  <span onclick="document.getElementById('id0002').style.display='none'" 
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h2>Bueno Neutral</h2>
+                </header>
+                <div class="w3-container w3-white">
+                  <p>Los buenos personajes neutrales hacen todo lo posible para ayudar a los demás, pero lo hacen porque quieren, no porque se lo hayan dicho una persona con autoridad o las leyes de la sociedad. </p>
+                  <p>Si bien generalmente seguirán las reglas y leyes de la sociedad, lo hacen porque conducen a buenos resultados, en lugar de porque se sientan obligados a hacerlo por figuras de autoridad e instituciones.  
+                  <p>Una buena persona neutral romperá las reglas si lo hace por buenas razones y se sentirá seguro y justificado en sus acciones. </p>
+                  <p>Un aspecto negativo de los personajes Neutral Good es que se preocupan por defender el Bien más que acatar cualquier ley, por lo que pueden adoptar un comportamiento caótico y ser impredecibles si se les empuja. </p>
+                </div>
+                <footer class="w3-container w3-green">
+                  <p></p>
+                </footer>
+              </div>
+            </div>
+        </td> 
+        <td class="w3-yellow">
+          <button onclick="document.getElementById('id00003').style.display='block'" class="w3-button w3-yellow">Bien Caotico</button>
+
+          <div id="id00003" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-yellow"> 
+                <span onclick="document.getElementById('id00003').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Bien Caotico</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>Los personajes de Chaotic Good hacen lo que les dice su conciencia por el bien común. No les importa seguir las reglas de la sociedad, les importa hacer lo correcto. </p>
+                <p>Un personaje de Chaotic Good hablará y ayudará a aquellos que están siendo retenidos innecesariamente debido a reglas y leyes arbitrarias. No les gusta que se les diga a las personas qué hacer por razones sin sentido. </p>
+                <p>Estas personas se rebelarán y romperán las reglas para hacer lo correcto e incluso pueden intentar provocar un cambio social. </p>
+                <p>Los personajes de Chaotic Good pueden parecer extraños a los demás porque no cumplen con las expectativas de la sociedad para encajar.</p>
+                <p>En el lado negativo, las acciones de los personajes de Chaotic Good pueden afectar negativamente a otras personas buenas. Puede que no les importe el éxito ganado con tanto esfuerzo por la gente buena porque su éxito se obtuvo en el sistema con el que el personaje de Chaotic Good no está de acuerdo.</p>
+              </div>
+              <footer class="w3-container w3-deep-yellow">
+              </footer>
+            </div>
+          </div></td>
+      </tr>
+      <tr>
+        <td class="w3-blue">  
+          <button onclick="document.getElementById('id00004').style.display='block'" class="w3-button w3-blue">Legal Neutral</button>
+          <div id="id00004" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-blue"> 
+                <span onclick="document.getElementById('id00004').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Legal Neutal</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>Un personaje legalmente neutral se comporta de una manera que coincide con la organización, autoridad o tradición que sigue. Viven según este código y lo defienden por encima de todo, tomando acciones que a veces son consideradas buenas y otras malas por otros. </p>
+                <p>Al personaje de Lawful Neutral no le importa lo que los demás piensen de sus acciones, solo le importa que sus acciones sean correctas de acuerdo con su código. Pero no predican su código a otros y tratan de convertirlos. </p>
+                <p>Personajes legítimos neutrales como reglas, orden y organización. Los siguen al pie de la letra por su propio bien. Las decisiones morales no entran en la ecuación para ellos, por lo que incluso si lastiman a otros en el cumplimiento de su deber, no sienten culpa, remordimiento o angustia.<br>Debido a que un personaje de Lawful Neutral es tan insensible al seguir sus propias leyes, es fácil para ellos parecer Lawful Evil. <br>La alineación Legal Neutral puede ser mala cuando el personaje busca controlar a los demás, eliminar a cualquiera que sea diferente y restringir todo el libre albedrío.</p>
+              </div>
+              <footer class="w3-container w3-blue"> </footer>
+            </div>
+          </div></td>
+        <td class="w3-light-gray">  
+          <button onclick="document.getElementById('id00005').style.display='block'" class="w3-button w3-light-gray">Neutral</button>
+          <div id="id00005" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-light-gray"> 
+                <span onclick="document.getElementById('id00005').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Neutral</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>A los personajes True Neutral (a veces llamados Neutral Neutral) no les gusta tomar partido. Son más pragmáticos que emocionales en sus acciones, eligiendo la respuesta que tiene más sentido para ellos en cada situación. <p>Los personajes neutrales no creen en defender las reglas y leyes de la sociedad, pero tampoco sienten la necesidad de rebelarse contra ellas. Habrá ocasiones en las que un personaje Neutral tendrá que elegir entre ponerse del lado del Bien o del Mal, quizás emitiendo el voto decisivo en un partido. Ellos tomarán una decisión en estas situaciones, por lo general se pondrán del lado de lo que les cause menos molestias o de lo que más salgan ganando. <p>Un personaje neutral puede estar preocupado con su propia agenda y simplemente no tener interés en lo que sucede a su alrededor, puede que solo esté buscando ver quién puede ofrecerle el mejor trato o simplemente hacer lo que es más conveniente en cualquier situación. <p>En el lado negativo, los personajes True Neutral pueden parecer apáticos e indecisos. Puede ser frustrante trabajar con ellos porque no quieren comprometerse con ninguna de las partes.</p>
+              </div>
+              <footer class="w3-container w3-light-gray"> </footer>
+            </div>
+          </div>
+          <td class="w3-orange">  
+          <button onclick="document.getElementById('id00006').style.display='block'" class="w3-button w3-orange">Neutral Caotico</button>
+          <div id="id00006" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-orange"> 
+                <span onclick="document.getElementById('id00006').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Neutral Caotico</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>Los personajes neutrales caóticos son espíritus libres. Hacen lo que quieren pero no buscan trastocar las normas y leyes habituales de la sociedad. 
+                <p>A estos individuos no les gusta que les digan qué hacer, seguir tradiciones o ser controlados. Dicho esto, no trabajarán para cambiar estas restricciones, sino que simplemente intentarán evitarlas en primer lugar. Su necesidad de ser libres es lo más importante. 
+                <p>Los personajes neutrales caóticos hacen lo que es más probable para garantizar su libertad, proteger su libre albedrío y obtener el resultado que desean. Esa podría ser una buena acción, como ayudar a alguien, o una mala acción, como no decir la verdad. Sin embargo, es más probable que un personaje Caótico Bueno realice una acción Buena que una Malvada porque generalmente resulta en un mejor resultado y en un momento fácil para ellos.
+                <p>Los personajes neutrales caóticos pueden estar a un paso de ser atrapados por una fechoría en un momento, y luego redimirse con una buena acción en el siguiente momento. Pueden caer fácilmente en el bien caótico o el mal caótico si realizan demasiadas acciones buenas o malas seguidas. 
+                <p>Los personajes neutrales caóticos a veces interrumpen el orden por el simple hecho de hacerlo y dejan que otros lo solucionen. ¡Los convierte en un aliado frustrante para tener en un grupo de D&D!
+              </div>
+              <footer class="w3-container w3-orange"></footer>
+            </div>
+          </div></td>
+      </tr>
+      <tr class="w3-indigo">
+        <td>  <button onclick="document.getElementById('id00007').style.display='block'" class="w3-button w3-indigo">Legalmente Malvado</button>
+
+          <div id="id00007" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-indigo"> 
+                <span onclick="document.getElementById('id00007').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Legalmente Malvado</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>Los personajes de Lawful Evil operan dentro de un estricto código de leyes y tradiciones. Mantener estos valores y vivir de acuerdo con ellos es más importante que cualquier cosa, incluso la vida de los demás. Puede que no se consideren malvados, puede que crean que lo que están haciendo es correcto. <br>Estos personajes imponen su sistema de control mediante la fuerza. Cualquiera que no siga su código o actúe fuera de línea enfrentará las consecuencias. Los personajes de Lawful Evil no sienten culpa ni remordimiento por causar daño a otros de esta manera
+                <p>Los personajes con una alineación de Lawful Evil pueden seguir su propio código moral de Evil o ser parte de un sistema ordenado siguiendo a un líder. Sin embargo, si su maestro deja de adherirse al código, puede que busquen derrocarlos o encontrar un reemplazo. 
+                <p>Las alineaciones de Lawful Evil son particularmente malas porque el Mal combinado con el orden y la estructura, a menudo conduce a movimientos malignos muy poderosos y regímenes de toda la sociedad.</p>
+              </div>
+              <footer class="w3-container w3-indigo">
+                <p></p>
+              </footer>
+            </div>
+          </div></td>
+        <td class="w3-purple"> 
+           <button onclick="document.getElementById('id00008').style.display='block'" class="w3-button w3-purple">Maldad Neutral</button>
+          <div id="id00008" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-purple"> 
+                <span onclick="document.getElementById('id00008').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Maldad Neutral</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>Los personajes neutrales malvados son egoístas. Sus acciones están impulsadas por sus propios deseos, ya sea poder, codicia, atención u otra cosa. Seguirán las leyes si se alinean con sus ambiciones, pero no dudarán en romperlas si no lo hacen. 
+                <p>No creen que seguir las leyes y tradiciones haga que alguien sea mejor persona. En cambio, usan las creencias de otras personas en los códigos y la lealtad en su contra, usándolas como una herramienta para influir en su comportamiento. 
+                <p>Estos personajes hacen lealtades con otros para promover su propia agenda, pero rápidamente dejarán aliados cuando ya no sean útiles.
+                <p>Los personajes con una alineación Neutral Evil dañarán a otros si promueve su agenda, pero no dañarán a las personas sin ninguna razón en particular. A menos que su agenda sea difundir el mal por el mal, en cuyo caso, pueden dañar a otros en masa. 
+                <p>Por encima de todo, los personajes de Neutral Evil se preocupan por una sola cosa, ellos mismos.      
+                <p>Los personajes neutrales malvados son particularmente malos porque pueden llevar a cabo el mal por el mal, sin ningún código al que seguir o rebelarse. 
+              </div>
+              <footer class="w3-container w3-purple"></footer>
+            </div>
+          </div></td>
+        <td class="w3-red"> 
+           <button onclick="document.getElementById('id00009').style.display='block'" class="w3-button w3-red">Mal Caotico</button>
+          <div id="id00009" class="w3-modal">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-red"> 
+                <span onclick="document.getElementById('id00009').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Mal Caotico</h2>
+              </header>
+              <div class="w3-container w3-white">
+                <p>Los personajes de Chaotic Evil solo se preocupan por sí mismos con un total desprecio por la ley y el orden y por el bienestar y la libertad de los demás. Dañan a otros por enojo o simplemente por diversión. </p>
+                <p>Los personajes alineados con Chaotic Evil generalmente operan solos porque no funcionan bien con otros. Se pueden controlar con fuerza, pero solo temporalmente. Tan pronto como tengan la oportunidad, eliminarán a la persona que los controla.
+                <p>Pueden ser impulsados ​​por su deseo de difundir el Caos y el Mal o porque lo disfrutan. Son impredecibles y expresan libremente emociones salvajes e intensas porque no ven ninguna razón para controlarlas o reprimirlas. 
+                <p>Los personajes de Chaotic Evil son los más malvados de todos porque quieren destruir todo: orden, tradición, vida, libertad y elección.</p>
+              </div>
+              <footer class="w3-container w3-red"></footer>
+            </div>
+          </div></td>
+      </tr>
+    </table>
+    <br>
+    <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong>Legal vs caótico</strong></h3>
+     <p><strong>Hay tres posiciones en el eje de la ética: legal, neutral y caótica.</strong> </p>
+    
+    <h4 ><strong>Legal</strong></h4>
+     <p>Un personaje legal sigue las reglas, respeta la jerarquía y cree en el poder otorgado por la sociedad. Los personajes legales creen en el honor, siguen las tradiciones y son dignos de confianza. Tienen fe en las reglas sociales porque son la forma en que se crea una sociedad funcional en la que todos actúan de la manera que espera. </p>
+     <p>Si bien pueden parecer nobles, los personajes legales pueden ser inflexibles y seguir ciegamente las reglas incluso si no tienen sentido. Pueden juzgar con dureza a otros que no siguen las mismas reglas y colocar su lealtad al sistema por encima de la lealtad a sus amigos y familiares. </p>
+
+    <h4><strong>Neutral</u></strong></h4>
+     <p>Sentados en el medio del eje ético, los personajes neutrales no se sienten obligados a seguir todas las reglas y creencias de la sociedad, ni sienten la necesidad de romper y rebelarse contra todo. Un personaje Neutral sigue las reglas que se alinean con su propia agenda, que le son convenientes o que cree que son necesarias. </p>
+     <p>Los personajes neutrales generalmente seguirán las reglas porque generalmente conducen a un mejor resultado para ellos. Sin embargo, pueden romper las reglas si creen que los beneficios para ellos superan los riesgos.</p>
+     <p>Los personajes con una alineación Neutral pueden verse a sí mismos como superiores a los personajes alineados Legal y Caótico porque al no tomar partido, son la única alineación con verdadera libertad para decidir. </p>
+    
+     <h4><strong>Caótico</strong></h4>
+     <p>Los personajes alineados caóticos no son aleatorios en sus acciones. En cambio, son simplemente el lado opuesto del espectro ético a los personajes legales. Los personajes alineados caóticos viven según sus propias reglas en lugar de las reglas que la sociedad ha decretado. Creen que es la única forma en que una persona es verdaderamente libre y puede desarrollar todo su potencial. </p>
+     <p>A los personajes caóticos no les gusta y desconfían de la autoridad, no les gusta seguir órdenes y viven la vida en sus propios términos. Pueden ser flexibles y adaptables y hacer lo que se adapte a la situación y a su propia agenda. </p>
+     <p>Los personajes con una alineación caótica pueden rebelarse contra las reglas para intentar provocar un cambio o simplemente crear anarquía. Pueden tomar medidas sin tener en cuenta las consecuencias. </p>
+     <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    
+     <h3><strong>El bien contra el mal</strong></h3>
+      <p><strong>El eje moral tiene tres posiciones: bueno, neutral y malo. </strong></p>
+    <h4><strong>Bueno</strong></h4>
+      <p>Los buenos personajes se preocupan por los demás y actúan de manera que los ayuden y beneficien. Protegen a los inocentes, defienden a los débiles y se esfuerzan por ayudar a otras personas. </p>
+    <h4><strong>Mal</strong></h4>
+      <p>Los personajes alineados con el Mal eliminarán a otros, les causarán daño y los harán miserables. No sienten remordimiento por sus acciones y derribarán a cualquiera, sean inocentes o no. </p>
+      <p>Los personajes pueden estar alineados con Evil por muchas razones diferentes. Por ejemplo, podría ser porque siguen a una deidad malvada, trabajan para un maestro malvado o porque lo disfrutan. </p>
+    <h4><strong>Neutral</strong></h4>
+      <p>Los personajes neutrales están en un punto medio. No van a los extremos de los personajes malignos y dañan a los inocentes, y de igual forma, no irán a los extremos del Bien y tomarán acciones que les perjudiquen a sí mismos para ayudar a los demás. </p>
+      <p>Las acciones de los personajes neutrales están impulsadas por su lealtad hacia los demás y hacia ellos mismos. Si una acción es en su mejor interés o en el mejor interés de aquellos a quienes son más leales, la tomarán. </p>
+      <p>Si bien todos los personajes pueden cambiar de alineación de forma natural a través del desarrollo del personaje, es especialmente común que los personajes neutrales pasen a una alineación buena o mala si la mayoría de sus acciones favorecen una alineación moral sobre la otra. </p>
+      <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong>¿Qué pasa con la alineación de animales y criaturas?</strong></h3>
+      <p>Se piensa que los animales y las criaturas que no pueden emprender acciones morales no están alineados. Están siguiendo sus instintos para responder a la situación frente a ellos, en lugar de responder con una comprensión intelectual de las reglas sociales y las consecuencias de sus decisiones.</p>
+      <hr style="height:2px;border-width:0;color:gray;background-color:red">
+    <h3><strong>Considere las alineaciones de su grupo</strong></h3>
+      <p>Si el grupo en el que estás jugando tiene una mezcla de personajes buenos y malos, puede ser difícil formar lealtades en el grupo. </p>
+      <p>Un grupo mixto crea una campaña interesante por un tiempo, pero eventualmente, el grupo se dividirá y los personajes pueden necesitar irse para mantenerse fieles a su alineación. </p>
+      <p>Alternativamente, el desarrollo del personaje podría llevar a los personajes a cambiar su alineación permitiéndoles trabajar juntos como un grupo sin problemas morales. </p>
+     <hr style="height:2px;border-width:0;color:gray;background-color:red"> 
+      <h3><strong><u>Tres pilares de la aventura</u></strong></h3>
+      <p>Los aventureros pueden intentar hacer cualquier cosa que sus jugadores puedan imaginar, pero puede ser útil hablar de sus actividades en tres categorías generales:<strong> Exploración, interacción social y combate.</strong></p>
+      <p><strong><u>La Exploración:</u></strong> incluye tanto el movimiento de los aventureros a través del mundo y su interacción con objetos como las situaciones que requieren su atención. Exploración es el toma y daca de los jugadores cuando describen qué quieren que hagan sus personajes y del Dungeon Master que les dice a los jugadores qué pasa como resultado. A gran escala, eso podría involucrar que los personajes pasen un día cruzando una llanura o una hora haciéndose camino a través de cavernas subterráneas. A menor escala, podría significar que un personaje está tirando de una palanca en un calabozo para ver qué pasa.</p>
+      <p><strong><u>La Interacción social:</u> </strong> representa a los aventureros hablando con alguien (o algo) más. Podría significar que le exijan a un centinela capturado que revele la entrada secreta al cubil de los goblin, que obtengan información de un prisionero rescatado, que ruegan por piedad a un jefe orco o que persuadan a un espejo mágico parlante que muestre una ubicación distante a los aventureros.</p>
+      <p><strong><u>El Combate:</u></strong> Involucra a los personajes y a otras criaturas blandiendo espadas, lanzando hechizos,  buscando una posición, etcétera, en un esfuerzo para derrotar a sus oponentes, aunque eso signifique matar a todos los enemigos, tomar prisioneros o forzar una retirada. El Combate es el elemento más estructurado de una sesión de D&D, con criaturas tomando turnos para asegurarse que todos tengan una posibilidad de actuar. Incluso en el contexto de una batalla campal, hay varias oportunidades para los aventureros para intentar realizar locas escenas peligrosas como surfear por las escaleras sobre un escudo, examinar el ambiente (tal vez tirando de una misteriosa palanca) e interactuar con otras criaturas, incluyendo aliados, enemigos y grupos neutrales</p>
+      <br>
+      <img src="Imagenes\Drake.gif"  style="width:100%;max-width:750px;max-height:300;margin-left:125px;" >
+    </div>
+</div>
+<!-- Clases Container -->
+</div>
+
+<div class="w3-container  ContenedorDeCartas"id="Clases" >
+  <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-red">Clases</span></h2>
+  <div class="w3-content w3-display-container w3-center " id="Div1"  > 
+    <div  class="Cartas w3-card mySlides ">
+      <img src="Imagenes\Clases\Barbaro.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modest">Barbaro</h3>
+      <p>Los Barbaros recurren a su hirviente reserva de ira frente a un mundo lleno de dolor. Para los bárbaros, la furia es un poder que no sólo les proporciona un frenesí ciego en la batalla, sino también extraordinarios reflejos, resistencia y proezas de fuerza.   
+    
+      <div class="w3-container Contenido ">
+        <br>
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-red w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id01" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-red"> 
+           <span onclick="document.getElementById('id01').style.display='none'" 
+           class="w3-button w3-red w3-xlarge w3-display-topright">&times;</span>
+           <h2>Barbaro</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Barbaro')">Barbaro</button>
+           
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda')">Senda/s</button>
+          </div>
+        
+          <div id="Barbaro" class="w3-container city">
+           <h1>Barbaro</h1>
+           <p>Para algunos, su rabia brota de la comunión con espíritus de animales salvajes. Otros recurren a su hirviente reserva de ira frente a un mundo lleno de dolor. Para los bárbaros, la furia es un poder que no sólo les proporciona un frenesí ciego en la batalla, sino también extraordinarios reflejos, resistencia y proezas de fuerza.
+           </p>
+           <br>
+           <strong>   Puntos de golpe: </strong>D12
+           <br>
+           <strong>  Requisitos para multiclase: </strong>Fuerza 13
+          </div>
+        
+          <div id="Senda" class="w3-container city">
+           <h2>Senda de Barbaro (Nivel 3)</h2>
+           <p> En el nivel 3 inicias una senda de tu elección: la senda del berseker o la senda del frío (que se detallan al final de la descripción de esta clase). Tu elección te concede rasgos en los niveles 3, 6, 10 y 14.</p>
+          <h3>Senda Berseker</h3>
+            <p>Para algunos bárbaros, la furia es un medio para alcanzar un medio para alcanzar un fin: la violencia. La senda del berserker es una senda de violencia ilimitada, impregnada de sangre. Cuando entras en furia berserker, disfrutas del caos de la batalla, sin preocuparte por tu propia salud o seguridad.</p>
+          <h3>Senda del Guerrero Totémico</h3>
+          <p>El Camino del Tótem Guerrero es un viaje espiritual, en el que los bárbaros aceptan un espíritu animal como guía, protección e inspiración. En la batalla, tu espíritu tótem te llena con poder sobrenatural, añadiendo poder mágico a tu furia bárbara.
+            La mayoría de las tribus bárbaras vinculan un tótem animal a la familia particular del clan. En casi ningún caso, un bárbaro puede tener más de un espíritu animal totémico, aunque existen excepciones.</p>
+          </div>
+        
+          <div class="w3-container w3-red w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id01').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Bardo.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Bardo</h3>
+      <p>Ya sea un erudito, un poeta o un canalla, un bardo teje su magia a través de sus palabras y su música para inspirar a los aliados, desmoralizar a los enemigos, manipular mentes, crear ilusiones e incluso sanar heridas.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-purple w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id02" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-purple"> 
+           <span onclick="document.getElementById('id02').style.display='none'" 
+           class="w3-button w3-purple w3-xlarge w3-display-topright">&times;</span>
+           <h2>Bardo</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Bardo')">Bardo</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda02')">Senda/s</button>
+          </div>
+        
+          <div id="Bardo" class="w3-container city">
+           <h1>Bardo</h1>
+           <p>Ya sea un erudito, un poeta o un canalla, un bardo teje su magia a través de sus palabras y su música para inspirar a los aliados, desmoralizar a los enemigos, manipular mentes, crear ilusiones e incluso sanar heridas.
+           </p>
+           <br>
+           <strong>Caracteristica para el lanzamiento de conjuros</strong>Carisma
+           <br>
+           <strong>Lista De Conjuros</strong> Conjuros de Bardo
+           <br>
+           <strong>   Puntos de golpe: </strong>D8
+           <br>
+           <strong>  Requisitos para multiclase: </strong>Carisma 13
+          </div>
+        
+          <div id="Senda02" class="w3-container city">
+            <h2>Senda de Bardo (Nivel 3)</h2>
+            <p> En el nivel 3, profundizas en las avanzadas técnicas de un colegio de bardos de tu elección. Tu elección te concede rasgos en el nivel 3 y de nuevo en los niveles 6 y 14.</p>
+           <h3>Colegio Del Conocimiento </h3>
+             <p>Los bardos del Colegio de Conocimiento saben algo sobre la mayoría de cosas, coleccionan conocimiento de fuentes tan diversas como tomos académicos y cuentos de campesinos.</p>
+           <h3>Colegio del Valor</h3>
+           <p>Los bardos del Colegio de Valor son osados poetas cuyos cuentos mantienen viva la memoria de los grandes héroes del pasado, y de este modo inspiran a una nueva generación de héroes. Estos bardos se reúnen en salones de banquetes o alrededor de grandes fogatas para cantar las hazañas de los poderosos, tanto del pasado como del presente. Viajan por el mundo para presenciar grandes eventos de primera mano y para asegurarse de que el recuerdo de esos eventos no abandone este mundo. Con sus canciones, inspiran a otros a alcanzar logros de las mismas dimensiones que los héroes de antaño.</p>
+          </div>
+        
+          <div class="w3-container w3-purple w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id02').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+        
+        </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Brujo.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Brujo</h3>
+      <p>Los brujos son buscadores del conocimiento que se encuentra escondido en el multiverso. A través de pactos hechos con seres poderosos de poder sobrenatural, los brujos desatan efectos mágicos tanto sutiles como espectaculares y recolectan secretos arcanos para potenciar su propio poder.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-pink w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id03" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-pink"> 
+           <span onclick="document.getElementById('id03').style.display='none'" 
+           class="w3-button w3-pink w3-xlarge w3-display-topright">&times;</span>
+           <h2>Brujo</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Brujo')">Brujo</button>
+
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda03')">Senda/s</button>
+          </div>
+        
+          <div id="Brujo" class="w3-container city">
+           <h1>Brujo</h1>
+           <p>Los brujos son buscadores del conocimiento que se encuentra escondido en el multiverso. A través de pactos hechos con seres poderosos de poder sobrenatural, los brujos desatan efectos mágicos tanto sutiles como espectaculares y recolectan secretos arcanos para potenciar su propio poder.
+            <br>
+            <strong>Caracteristica para el lanzamiento de conjuros</strong>Carisma
+            <br>
+            <strong>Lista De Conjuros</strong> Conjuros de Brujo
+            <br>
+            <strong>   Puntos de golpe: </strong>D8
+            <br>
+            <strong>  Requisitos para multiclase: </strong>Carisma 13
+           </div>
+        
+          <div id="Senda03" class="w3-container city">
+            <h2>PATRÓN DE OTRO MUNDO (NIVEL 1)</h2>
+            <p>Al comenzar el nivel 1, has firmado un pacto con un ser de otro mundo de tu elección. Tu elección te proporciona rasgos en el nivel 1 y nuevamente en los niveles 6, 10 y 14.            </p>
+           <h3>Ser Infernal</h3>
+             <p>Has hecho un pacto con un infernal de los planos de existencia inferiores, un ser cuyos objetivos son malignos, incluso si tú luchas contra esos objetivos. Tales seres desean la corrupción o la destrucción de todas las cosas, incluyéndote a ti en última instancia.</p>
+           <h3>El Señor Feérico</h3>
+           <p>Tu patrón es un noble entre los feéricos. Una criatura de leyenda, poseedora de secretos que fueron olvidados antes de que las razas mortales nacieran. Las motivaciones de este ser son a menudo inescrutables, y a veces caprichosas, y podrían involucrar la obtención de mayor poder mágico o reparar antiguos rencores. Los seres de este tipo incluyen al Príncipe del Frío; la Reina del Aire y la Oscuridad, soberana de la Corte Crepuscular; Titania de la Corte del Verano; su consorte Oberon, el Señor Verde; Hyrsam, el Príncipe de los Tontos; y antiguas brujas.</p>
+           <h3>El Primigenio</h3> 
+            <p>Tu patrón es una misteriosa entidad cuya naturaleza es totalmente ajena al tejido de la realidad. Podría venir del Reino Lejano, el espacio más allá de la realidad, o ser uno de los dioses antiguos, sólo conocidos en las leyendas. Sus motivos son incomprensibles para los mortales, y su conocimiento, tan inmenso y antiguo, que incluso las mayores bibliotecas palidecen en comparación a los vastos secretos que guardan estos seres. El Gran Antiguo podría no ser consciente de tu existencia, o ser totalmente indiferente a esta, pero los secretos que aprendiste te permiten tomar tu magia de él.</p>
+          </div>
+        
+          <div class="w3-container w3-pink w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id03').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+        </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Explorador.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Explorador</h3>
+      <p>Lejos del bullicio de las ciudades y pueblos, más allá de las defensas que mantienen a las granjas más lejanas protegidas de los terrores de la naturaleza, en medio de tupidos bosques sin caminos y a través de enormes y vacías llanuras, los exploradores mantienen su interminable guardia.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-green w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id04" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-green"> 
+           <span onclick="document.getElementById('id04').style.display='none'" 
+           class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
+           <h2>Explorador</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Explorador')">Explorador</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda04')">Senda/s</button>
+          </div>
+        
+          <div id="Explorador" class="w3-container city">
+           <h1>Explorador</h1>
+           <p>Lejos del bullicio de las ciudades y pueblos, más allá de las defensas que mantienen a las granjas más lejanas protegidas de los terrores de la naturaleza, en medio de tupidos bosques sin caminos y a través de enormes y vacías llanuras, los exploradores mantienen su interminable guardia.
+           </p>
+           <br>
+           <strong>Característica para el lanzamiento de conjuros:</strong>Sabiduria
+           <br>
+           <strong>Lista de Conjuros</strong>Conjuros de explorador
+           <br>
+           <strong>   Puntos de golpe: </strong>D10
+           <br>
+           <strong>  Requisitos para multiclase: </strong> Destreza 13 y Sabiduría 13
+          </div>
+
+          <div id="Senda04" class="w3-container city">
+           <h2>Arquetipo De Explorador (Nivel 3)</h2>
+           <p> En el nivel 3 eliges un arquetipo de explorador, que te otorga rasgos en el nivel 3 y de nuevo en los niveles 7, 11 y 15.            </p>
+           <h3>Cazador</h3>
+           <p>Emular el arquetipo del cazador significa aceptar tu lugar como baluarte entre la civilización y los terrores de lo salvaje. Conforme avanzas por la senda del cazador, aprendes técnicas especializadas para luchar contra las amenazas, desde ogros violentos y hordas de orcos hasta gigantes enormes y dragones aterradores.</p>
+           <h3>Señor de las bestias</h3>
+           <p>El Señor de las Bestias encarna la amistad entre las razas civilizadas y las bestias del mundo. Concentrados en un mismo objetivo, explorador y bestia se unen para luchar contra los monstruosos enemigos que amenazan tanto a la civilización como a las tierras salvajes por igual. Adoptar el arquetipo de Señor de las Bestias significa comprometerte con este ideal, trabajando en asociación con un animal como compañero y amigo.</p>
+          </div>
+        
+          <div class="w3-container w3-green w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id04').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+        </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Druida.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Druida</h3>
+      <p>Ya sea invocando a las fuerzas elementales o emulando a las criaturas del mundo animal, los druidas son la personificación de la resistencia, astucia y furia de la naturaleza. Dicen no tener un dominio sobre la naturaleza. En lugar de eso, se ven como una extensión de la voluntad indomable de la misma.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-light-green w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id05" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-light-green"> 
+           <span onclick="document.getElementById('id05').style.display='none'" 
+           class="w3-button w3-light-green w3-xlarge w3-display-topright">&times;</span>
+           <h2>Druida</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Druida')">Druida</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgo de Clase04')">Rasgos de Clase</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda')">Senda/s</button>
+          </div>
+        
+          <div id="Druida" class="w3-container city">
+           <h1>Druida</h1>
+           <p>Ya sea invocando a las fuerzas elementales o emulando a las criaturas del mundo animal, los druidas son la personificación de la resistencia, astucia y furia de la naturaleza. Dicen no tener un dominio sobre la naturaleza. En lugar de eso, se ven como una extensión de la voluntad indomable de la misma.
+           </p>
+           <br>
+           <strong>Característica para el lanzamiento de conjuros:</strong>Sabiduria
+           <br>
+           <strong>Lista de Conjuros</strong>Conjuros de Druida
+           <br>
+           <strong>   Puntos de golpe: </strong>D8
+           <br>
+           <strong>  Requisitos para multiclase: </strong> Sabiduría 13
+          </div>
+
+          <div id="Senda05" class="w3-container city">
+           <h2>Circulo Druídico</h2>
+           <p>En el nivel 2, entras a formar parte de un círculo druídico de tu elección. Esto te otorga rasgos en el nivel 2 y de nuevo en los niveles 6, 10 y 14.</p>
+           <h3>Círculo de Tierra</h3>
+           <p>El círculo de la tierra es un conjunto de místicos y sabios que salvaguardan el conocimiento y los ritos antiguos de una vasta tradición oral. Estos druidas se reúnen en círculos sagrados de árboles o de piedras para susurrar secretos primarios en druídico. Los miembros más sabios presiden como sacerdotes principales de las comunidades que mantienen la antigua fe y sirven como consejeros a los gobernantes de esa gente. Como miembro de este círculo, tu magia está influenciada por la tierra en la que fuiste iniciado en los misteriosos ritos del círculo.          </p>
+           <h3>Círculo de Luna</h3>
+           <p>Los druidas del Círculo de la Luna son fieros guardianes de lo salvaje. Su orden se reúne bajo la luna llena para compartir noticias y posibles peligros. Se adentran en los lugares más profundos de la naturaleza, donde podrían pasar semanas antes de cruzarse con otra criatura humanoide, y mucho menos con otro druida.<br>Cambiantes como la luna, un druida de este círculo podría acechar como un gran gato una noche, elevarse sobre las copas de los árboles como un águila al día siguiente, y abalanzarse a través de la maleza en forma de oso para ahuyentar a un intruso monstruoso. Lo salvaje es parte de la sangre del druida.</p>
+          
+          
+          
+          
+          </div>
+        
+          <div class="w3-container w3-light-green w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id05').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+        </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Clerigo.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Clerigo</h3>
+      <p>Los clérigos son intermediarios entre el mundo mortal y los distantes planos divinos. Tan diferentes entre ellos como los dioses a los que sirven, los clérigos se esfuerzan por personificar las obras de sus deidades. No son sacerdotes ordinarios, un clérigo se encuentra imbuido de magia divina.</p>
+      
+     <div class="w3-container">
+     <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-aqua w3-round-xxlarge">Ver Detalles</button>
+  
+     <div id="id06" class="w3-modal">
+     <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+     <header class="w3-container w3-aqua"> 
+     <span onclick="document.getElementById('id06').style.display='none'" 
+     class="w3-button w3-aqua w3-xlarge w3-display-topright">&times;</span>
+     <h2>Clerigo</h2>
+    </header>
+  
+    <div class="w3-bar w3-border-bottom">
+     <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Clerigo')">Clerigo</button>
+     <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda06')">Senda/s</button>
+    </div>
+  
+    <div id="Clerigo" class="w3-container city">
+     <h1>Clerigo</h1>
+     <p>Los clérigos son intermediarios entre el mundo mortal y los distantes planos divinos. Tan diferentes entre ellos como los dioses a los que sirven, los clérigos se esfuerzan por personificar las obras de sus deidades. No son sacerdotes ordinarios, un clérigo se encuentra imbuido de magia divina.
+     </p>
+     <br>
+     <strong>Característica para el lanzamiento de conjuros:</strong>Sabiduria
+     <br>
+     <strong>Lista de Conjuros</strong>Conjuros de Clerigo  
+     <br>
+     <strong>   Puntos de golpe: </strong>D8
+     <br>
+     <strong>  Requisitos para multiclase: </strong> Sabiduría 13
+    </div>
+  
+
+    <div id="Senda" class="w3-container city">
+     <h2>Dominio de Clerigo (Nivel 1)</h2>
+      <p>Sigues uno de los dominios de tu elección, que te otorga conjuros de dominio y otros rasgos a partir del nivel 1. También te otorga otras formas de usar Canalizar divinidad cuando consigas dicho rasgo en el nivel 2, así como beneficios adicionales en los niveles 6, 8 y 17.</p>
+     <h3>Dominio de la Vida</h3>
+     <p>El dominio de la vida se centra en la energía positiva, una de las fuerzas fundamentales del universo, que sostiene toda vida. Los dioses de la vida protegen la vitalidad y la salud curando a los enfermos y a los heridos, cuidando de los necesitados y alejando las fuerzas de los muertos y los no muertos.</p>
+     <h3>Dominio del Conocimiento</h3>
+     <p>Los dioses del conocimiento (incluyendo a Oghma, Boccob, Gilean, Aureon y Thoth) valoran el aprendizaje y el entendimiento sobre todas las cosas. Algunos enseñan que el conocimiento debe ser reunido y compartido en bibliotecas y universidades, o promueven el conocimiento práctico del oficio y la inventiva. Algunas deidades atesoran el conocimiento y guardan sus secretos para ellos mismos. Y algunos prometen a sus seguidores que ganarán un tremendo poder si descifran los secretos del multiverso. Los seguidores de estas deidades estudian las tradiciones esotéricas, coleccionan tomos antiguos, exploran los lugares de la tierra y aprenden todo lo que pueden.</p>
+     <h3>Dominio de la Guerra</h3>
+     <p>La guerra tiene muchas manifestaciones. Puede convertir en héroes a la gente ordinaria. Puede ser desesperante y horrible, con actos de crueldad y cobardía eclipsando momentos de excelencia y valor. En cualquier caso, los dioses de la guerra vigilan a los guerreros y los recompensan por sus grandes hechos. Los clérigos de estos dioses sobresalen en la batalla, inspiran a otros a pelear de manera justa u ofrecen actos de violencia como plegarias.</p>
+     <h3>Dominio de luz</h3>
+     <p>Los dioses de la luz (incluyendo a Helm, Lathander, Pholtus, Branchala, la Llama Plateada, Belenus, Apolo y ReHorakhty) promueven los ideales del renacimiento y la renovación, la verdad, la vigilancia y la belleza, a menudo usando el símbolo del sol. Los clérigos de un dios de la luz son almas iluminadas, llenas de brillantez y poseen el poder de discernimiento de su deidad, encomendados con la persecución de las mentiras y el desvanecimiento de la oscuridad.</p>
+     <h3>Dominio de  la Naturaleza</h3>
+     <p>Los dioses de la naturaleza son tan variados como el mismo mundo natural, desde dioses inescrutables de los bosques profundos (como Silvanus, ObadHai, Chislev, Balinor y Pan) hasta deidades amistosas asociadas con primaveras y arboledas particulares (como Eldath). Muchos de estos dioses tienen clérigos, campeones que toman un rol más activo en cuanto a conseguir los intereses de un dios natural en particular. Estos clérigos podrían cazar las monstruosidades malvadas que incursionan en los bosques, bendecir la cosecha de los fieles o marchitar los cultivos de quienes ofenden a sus dioses.</p>
+     <h3>Dominio de la Tempestad</h3>
+     <p>Los dioses cuyas carteras incluyen el dominio de Tempestad gobiernan las tormentas, el cielo y el mar. Incluyen dioses del trueno y el relámpago, dioses de terremotos, algunos dioses de fuego y determinados dioses de la violencia, la fuerza física y el valor. Los dioses de la tempestad envían a sus clérigos a inspirar miedo entre la gente común, ya sea para mantenerlos en la senda de la rectitud o para incentivarlos a realizar sacrificios de aplacamiento para evitar la ira divina.</p>
+     <h3>Dominio del Engaño</h3>
+     <p>Las divinidades del engaño son seres revoltosos y manipuladores, que representan una constante amenaza al orden aceptado entre dioses y mortales. Son patrones de ladrones, canallas, apostadores, rebeldes y libertadores. Sus clérigos son una fuerza disruptiva en el mundo, hieren orgullos, se burlan de los tiranos, roban a los ricos, liberan prisioneros y no hacen caso de las tradiciones huecas. Prefieren el subterfugio, las bromas, el engaño y el robo a la confrontación directa.</p>
+    </div>
+  
+    <div class="w3-container w3-aqua w3-padding">
+     <button class="w3-button w3-right w3-white w3-border" 
+     onclick="document.getElementById('id06').style.display='none'">Cerrar</button>
+     </div>
+     </div>
+     </div>
+  
+      </div>
+      </div>
+      <div  class="Cartas w3-card mySlides ">
+        <img src="Imagenes\Clases\Mago.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+        <h3 style="font-family:Modest">Mago</h3>
+       <p>Los magos son los practicantes supremos de la magia, definidos y unidos como una clase por los hechizos que conjuran. A partir de la sutil onda de la magia que impregna el cosmos, los magos lanzan explosivos hechizos de fuego, arcos voltaicos, sutiles engaños y brutales formas de control mental.
+        
+        <div class="w3-container">
+          <button onclick="document.getElementById('id08').style.display='block'" class="w3-button w3-blue w3-round-xxlarge">Ver Detalles</button>
+          
+          <div id="id08" class="w3-modal">
+           <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+            <header class="w3-container w3-blue"> 
+             <span onclick="document.getElementById('id08').style.display='none'" 
+             class="w3-button w3-blue w3-xlarge w3-display-topright">&times;</span>
+             <h2>Mago</h2>
+            </header>
+          
+            <div class="w3-bar w3-border-bottom">
+             <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Mago')">Mago</button>
+             <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda08')">Senda/s</button>
+            </div>
+          
+            <div id="Mago" class="w3-container city">
+             <h1>Mago</h1>
+             <p>Los magos son los practicantes supremos de la magia, definidos y unidos como una clase por los hechizos que conjuran. A partir de la sutil onda de la magia que impregna el cosmos, los magos lanzan explosivos hechizos de fuego, arcos voltaicos, sutiles engaños y brutales formas de control mental.
+              <br>
+              <strong>Característica para el lanzamiento de conjuros:</strong>Inteligencia
+              <br>
+              <strong>Lista de Conjuros</strong>Conjuros de Mago
+              <br>
+              <strong>   Puntos de golpe: </strong>D6
+              <br>
+              <strong>  Requisitos para multiclase: </strong> Inteligencia 13
+            </div>
+          
+
+            <div id="Senda08" class="w3-container city">
+             <h2>Tradoción Arcana (Nivel 2)</h2>
+             <p>Al nivel 2, comienzas a seguir una tradición arcana, que moldea tu forma de practicar la magia. Tu elección te otorga rasgos en el nivel 2 y de nuevo en los niveles 6, 10 y 14.</p>
+             <h3>Escuela de Evocación</h3>
+             <p>Centras tu estudio en magia capaz de crear poderosos efectos elementales, como frío intenso, fuego abrasador, truenos vibrantes, relámpagos chispeantes y ácido ardiente. Algunos evocadores encuentran cómo usarlos para usos militares, utilizándolos como artillería para derribar los ejércitos enemigos desde la distancia. Otros usan estos espectaculares poderes para proteger a los débiles, mientras que otros se ganan la vida como bandidos, aventureros o aspirantes a tiranos.</p>
+             <h3>La escuela de Nigromancia</h3>
+             <p>La escuela de Nigromancia explora las fuerzas cósmicas de la vida, la muerte y la no muerte. Cuando concentras tus estudios en esta tradición, aprendes a manipular la energía que anima a todos los seres vivientes. A medida que progresas, aprendes a extraer la fuerza vital de una criatura mientras tu magia destruye su cuerpo, transformando esa energía vital en poder mágico que puedes manipular.</p>
+             <h3>La Escuela de Abjuración</h3>
+             <p>La Escuela de Abjuración hace énfasis en la magia que bloquea, erradica o protege. Los detractores de esta escuela dicen que su tradición está basada en la negación, en lugar de la aserción positiva. Comprendes, aun así, que terminar con efectos dañinos, proteger a los débiles y erradicar el mal es algo más que un vacío filosófico. Es una respetada profesión de la cual estar orgulloso.</p>
+             <h3>>La Escuela de Adivinacion</h3>
+             <p>El consejo de un adivinador es buscado tanto por la realeza como por la gente común, ya que todos buscan una comprensión más clara del pasado, presente y futuro. Como adivinador, te afanas en abrir los velos del tiempo, del espacio y de la consciencia para ver más claramente. Trabajas para dominar conjuros de discernimiento, vista remota, conocimiento sobrenatural y premonición.</p>
+             <h3>Escuela de Conjurador</h3>
+             <p>Como un conjurador, prefieres usar conjuros que forman objetos y criaturas a partir del aire mismo. Puedes conjurar nubes de niebla asesina o invocar criaturas de algún otro lado para que luchen por ti. A medida que crece tu dominio, aprendes conjuros de transportación y puedes teletransportarte a través de vastas distancias, incluso a otros planos de existencia, en un instante.</p>
+             <h3>Escuela de Ilusion</h3>
+             <p>Enfocas tus estudios en la magia que confunde los sentidos, la mente y engañan hasta al más sabio. Tu magia es sutil, pero las ilusiones creadas por tu ágil mente hacen que lo imposible parezca real. Algunos ilusionistas (incluyendo muchos magos gnomos) son bribones benignos que usan sus conjuros para entretener. Otros son más siniestros, maestros del engaño, que usan sus ilusiones para asustar y engañar a otros para su beneficio personal.</p>
+             <h3>Escuela de Transmutación</h3>
+             <p>Eres un erudito de los conjuros que modifican la energía y la materia. Para ti, el mundo no es algo fijo, sino sumamente mutable, y te deleitas en la idea de ser un agente del cambio.<br>Blandes la materia pura de la creación y aprendes a alterar tanto las formas físicas como las cualidades mentales. Tu magia te brinda las herramientas para convertirte un herrero en la forja de la realidad.</p>
+            
+            </div>
+          
+            <div class="w3-container w3-blue w3-padding">
+             <button class="w3-button w3-right w3-white w3-border" 
+             onclick="document.getElementById('id08').style.display='none'">Cerrar</button>
+            </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+      <div  class="Cartas w3-card mySlides ">
+        <img src="Imagenes\Clases\Hechicero.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+        <h3 style="font-family:Modest">Hechicero</h3>
+        <p>Los hechiceros tienen una magia innata, conferida por una línea de sangre exótica, una influencia de otro mundo o la exposición a fuerzas cósmicas desconocidas. Uno no puede estudiar hechicería como quien estudia un lenguaje, más de lo que uno puede aprender a vivir una vida legendaria. Nadie elige la hechicería, el poder elige al hechicero.
+        
+        <div class="w3-container">
+          <button onclick="document.getElementById('id09').style.display='block'" class="w3-button w3-deep-orange w3-round-xxlarge">Ver Detalles</button>
+          
+          <div id="id09" class="w3-modal">
+           <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+            <header class="w3-container w3-deep-orange"> 
+             <span onclick="document.getElementById('id09').style.display='none'" 
+             class="w3-button w3-deep-orange w3-xlarge w3-display-topright">&times;</span>
+             <h2>Hechicero</h2>
+            </header>
+          
+            <div class="w3-bar w3-border-bottom">
+             <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Hechicero')">Hechicero</button>
+             <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda09')">Senda/s</button>
+            </div>
+          
+            <div id="Hechicero" class="w3-container city">
+             <h1>Hechicero</h1>
+             <p>Los hechiceros tienen una magia innata, conferida por una línea de sangre exótica, una influencia de otro mundo o la exposición a fuerzas cósmicas desconocidas. Uno no puede estudiar hechicería como quien estudia un lenguaje, más de lo que uno puede aprender a vivir una vida legendaria. Nadie elige la hechicería, el poder elige al hechicero.
+              <br>
+              <strong>Característica para el lanzamiento de conjuros:</strong>Carisma
+              <br>
+              <strong>Lista de Conjuros</strong>Conjuros de Hechicero
+              <br>
+              <strong>   Puntos de golpe: </strong>D6
+              <br>
+              <strong>  Requisitos para multiclase: </strong> Carisma 13
+            </div>
+
+            <div id="Senda09" class="w3-container city">
+              <h2>Origen Sortilegio (Nivel 1)</h2>
+              <p>Cada hechicero afirma que su magia innata tiene diferentes orígenes. Elige un origen sortílego que describa la fuente de tu poder mágico innato. Tu elección te otorga rasgos en el nivel 1 y de nuevo en los niveles 6, 14 y 18.</p>
+              <h3>Linaje de Dragon</h3>
+              <p>Tu magia proviene de la mezcla entre la magia de los dragones y tu sangre o la de tus ancestros. La mayoría de las veces, los hechiceros con este origen son capaces de rastrear a sus ancestros hasta un poderoso hechicero de los tiempos antiguos que hizo un trato con un dragón o que incluso aseguraba que tenía un padre dragón. Algunos de estos linajes están bien establecidos en el mundo, pero la mayoría son oscuros. Cualquier hechicero podría ser el primero de un nuevo linaje como resultado de un pacto o de alguna otra circunstancia excepcional.
+              </p>
+              <h3>Magia Salvaje</h3>
+              <p>Tu magia innata proviene de las fuerzas salvajes del caos que subyacen en el orden de la creación. Es posible que hayas sufrido la exposición a alguna forma de magia pura, quizás a través de un portal que conduce al limbo, los planos elementales o los misteriosos Reinos Lejanos. Quizás hayas sido bendecido por alguna poderosa criatura feérica o marcado por un demonio. O tu magia puede ser una casualidad de tu nacimiento, sin una causa aparente o razón. Sin embargo ahí está, una magia caótica se revuelve dentro de ti, buscando cualquier salida.</p>
+            
+            </div>
+          
+            <div class="w3-container w3-deep-orange w3-padding">
+             <button class="w3-button w3-right w3-white w3-border" 
+             onclick="document.getElementById('id09').style.display='none'">Cerrar</button>
+            </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Guerrero.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Guerrero</h3>
+      <p>Todos los guerreros comparten un dominio magistral de las armas y armaduras, y un exhaustivo conocimiento de las habilidades del combate. Además, están muy relacionados con la muerte, tanto repartiéndola como mirándola fijamente, desafiantes.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id10').style.display='block'" class="w3-button w3-orange w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id10" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-orange"> 
+           <span onclick="document.getElementById('id10').style.display='none'" 
+           class="w3-button w3-deep-orange w3-xlarge w3-display-topright">&times;</span>
+           <h2>Guerrero</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Guerrero')">Guerrero</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda10')">Senda/s</button>
+          </div>
+        
+          <div id="Guerrero" class="w3-container city">
+           <h1>Guerrero</h1>
+           <p>Todos los guerreros comparten un dominio magistral de las armas y armaduras, y un exhaustivo conocimiento de las habilidades del combate. Además, están muy relacionados con la muerte, tanto repartiéndola como mirándola fijamente, desafiantes.</p>
+            <br>
+            <strong>   Puntos de golpe: </strong>D10
+            <br>
+            <strong>  Requisitos para multiclase: </strong> Fuerza 13 o Destreza 13
+          </div>
+        
+
+        
+          <div id="Senda10" class="w3-container city">
+           <h2>Arquetipo Marcial (Nivel 3)</h2>
+           <p>A nivel 3 eliges un arquetipo que encaje con tu forma de enfocar tus estilos y técnicas de combate. Tu arquetipo te otorga rasgos a nivel 3 y de nuevo a nivel 7, 10, 15 y 18.</p>
+           <h3>Campeon</h3>
+           <p>El arquetipo de campeón se centra en perfeccionar la fuerza bruta. Aquellos que se modelan a sí mismos en este arquetipo combinan un riguroso entrenamiento con la excelencia física para infligir golpes devastadores.</p>
+           <h3>Caballero Arcano</h3>
+           <p>El Caballero Arcano combina la maestría marcial común en todos los guerreros con un cuidadoso estudio de la magia. Los Caballeros Arcanos usan técnicas mágicas similares a aquellas practicadas por los magos. Centran sus estudios en dos de las ocho escuelas de magia: abjuración y evocación. Los conjuros de abjuración ofrecen protección adicional en la batalla al Caballero Arcano, y los hechizos de evocación hacen daño a varios enemigos al mismo tiempo, ampliando el rango del luchador en combate. Estos caballeros aprenden un número relativamente pequeño de conjuros, memorizándolos en lugar de guardarlos en libros de conjuros.</p>
+           <h3>Maestro de Batalla</h3>
+           <p>Aquellos que escojan el arquetipo Maestro de Batalla emplean técnicas marciales que han pasado a través de generaciones. Para un Maestro de Batalla, el combate es un campo académico, incluyendo algunas veces objetivos más allá de la batalla, como la forja de armas y la caligrafía. No todos los guerreros absorben las lecciones de historia, teoría y arte que son reflejadas en el arquetipo del Maestro de Batalla, pero aquellos que lo hacen son guerreros muy bien preparados, con grandes habilidades y conocimientos.</p>
+
+          </div>
+        
+          <div class="w3-container w3-orange w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id10').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Paladin.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Paladin</h3>
+      <p>Sean cuales sean sus orígenes y sus misiones, los paladines están unidos por sus juramentos para luchar en contra de las fuerzas del mal. El juramento de un paladín es un lazo muy poderoso. Es una fuente de poder que convierte a un devoto guerrero en un campeón bendecido.</p>
+      
+      <div class="w3-container">
+        <button onclick="document.getElementById('id11').style.display='block'" class="w3-button w3-amber w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id11" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-amber"> 
+           <span onclick="document.getElementById('id11').style.display='none'" 
+           class="w3-button w3-amber w3-xlarge w3-display-topright">&times;</span>
+           <h2>Paladin</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Paladin')">Paladin</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda09')">Senda/s</button>
+          </div>
+        
+          <div id="Paladin" class="w3-container city">
+           <h1>Paladin</h1>
+           <p>Sean cuales sean sus orígenes y sus misiones, los paladines están unidos por sus juramentos para luchar en contra de las fuerzas del mal. El juramento de un paladín es un lazo muy poderoso. Es una fuente de poder que convierte a un devoto guerrero en un campeón bendecido.
+            <br>
+            <strong>Característica para el lanzamiento de conjuros:</strong>Carisma
+            <br>
+            <strong>Lista de Conjuros</strong>Conjuros de Paladin
+            <br>
+            <strong>   Puntos de golpe: </strong>D10  
+            <br>
+            <strong>  Requisitos para multiclase: </strong> Fuerza 13 y Carisma 13
+          </div>
+        
+          <div id="Senda11" class="w3-container city">
+           <h2>Juramento Sagrado (Nivel 3)</h2>
+           <p>Cuando llegas al nivel 3, tomas un juramento sagrado, que te vincula como paladín para siempre. El juramento de devoción te concede rasgos en el nivel 3 y de nuevo en los niveles 7, 15 y 20. Dichos rasgos incluyen conjuros de juramento y el rasgo Canalizar divinidad.</p>
+           <h3>Juramento de la Devocion</h3>
+           <p>El juramento de devoción vincula a un paladín con las nobles ideas de justicia, virtud y orden. Algunos los llaman caballeros, caballeros blancos o guerreros sagrados. Estos paladines representan el ideal del caballero de brillante armadura que actúa por el honor en busca de la justicia y el bien mayor.</p>
+           <h3>Juramento de los Ancestros</h3>
+           <p>Llamados algunas veces caballeros feéricos, caballeros verdes, o caballeros astados, los paladines que hacen este juramento luchan del lado de la luz en el conflicto cósmico en contra de la oscuridad porque aman la belleza y las cosas llenas de vida que hay en el mundo, no necesariamente porque crean en los principios del honor, el coraje o la justicia.</p>
+           <h3>Juramento de Venganza</h3>
+           <p>El Juramento de Venganza es una solemne promesa de castigar a aquellos que han cometido un gravísimo pecado. Cuando las fuerzas del mal asesinan a los indefensos aldeanos, cuando un pueblo entero se vuelve en contra de la voluntad de los dioses, cuando una hermandad de ladrones se torna demasiado violenta y poderosa, cuando un dragón masacra toda una villa; en momentos así, los paladines surgen y realizan un Juramento de Venganza para enderezar aquello que ha ido mal. Para estos paladines (que algunos llaman vengadores o caballeros oscuros) su propia pureza no es tan importante como el impartir justicia.</p>
+          </div>
+        
+          <div class="w3-container w3-amber w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id11 ').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Picaro.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Picaro</h3>
+      <p>Los pícaros confían sus habilidades, el sigilo y las vulnerabilidades de sus oponentes para lograr sacar ventaja en cualquier situación. Tienen un don para encontrar la solución a prácticamente cualquier problema, demostrando un ingenio y versatilidad, que es la piedra angular de cualquier buen grupo de aventureros.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id12').style.display='block'" class="w3-button w3-blue-gray w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id12" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-blue-gray"> 
+           <span onclick="document.getElementById('id12').style.display='none'" 
+           class="w3-button w3-blue-gray w3-xlarge w3-display-topright">&times;</span>
+           <h2>Picaro</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Picaro')">Picaro</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda12')">Senda/s</button>
+          </div>
+        
+          <div id="Picaro" class="w3-container city">
+           <h1>Picaro</h1>
+           <p>Los pícaros confían sus habilidades, el sigilo y las vulnerabilidades de sus oponentes para lograr sacar ventaja en cualquier situación. Tienen un don para encontrar la solución a prácticamente cualquier problema, demostrando un ingenio y versatilidad, que es la piedra angular de cualquier buen grupo de aventureros.
+            <br>
+            <strong>   Puntos de golpe: </strong>D8
+            <br>
+            <strong>  Requisitos para multiclase: </strong>Destreza 13  
+          </div>
+        
+          <div id="Senda12" class="w3-container city">
+           <h2>Arquetipo de Pícaro (Nivel 3)</h2>
+           <p>En nivel 3 eliges un arquetipo que se parezca a la forma en la que usas tus habilidades de pícaro. Tu elección de arquetipo te ofrecerá rasgos a nivel 3 y de nuevo en los niveles 9, 13 y 17.</p>
+           <h3>Ladron</h3>
+           <p>Has perfeccionado tus habilidades en las artes del latrocinio. Ladrones, bandidos, rateros y otros criminales suelen seguir este arquetipo, pero también lo hacen los pícaros que prefieren pensar en sí mismos como en buscadores de tesoros profesionales. Además de mejorar tu agilidad y tu sigilo, aprendes habilidades útiles para colarte en ruinas antiguas, leer idiomas que no te son familiares y usar objetos mágicos que normalmente no podrías usar.</p>
+           <h3>Asesino</h3>
+           <p>Concentras tu entrenamiento en el macabro arte de la muerte. Aquellos que se adhieren a este arquetipo son diversos personajes: Asesinos pagados, caza recompensas, espías e incluso clérigos especialmente ungidos para exterminar los enemigos de su deidad. El sigilo, el veneno y el disfraz te ayudan a eliminar a tus enemigos con eficacia mortal.</p>
+           <h3>Embaucador Arcano</h3>
+           <p>Algunos pícaros potencian sus refinadas habilidades de sigilo y agilidad mediante la magia, aprendiendo trucos de encantamiento e ilusión. Estos pícaros abarcan rateros y asaltantes, pero también bromistas, traviesos y un número significativo de aventureros.</p>
+
+
+
+          </div>
+        
+          <div class="w3-container w3-blue-gray w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id12 ').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div  class="Cartas w3-card mySlides">
+      <img src="Imagenes\Clases\Monje.jpg" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modesto">Monje</h3>
+      <p>Cualquiera que sea su disciplina, los monjes están unidos por su habilidad para utilizar mágicamente la energía que corre por sus cuerpos. Ya sea canalizada en una impactante demostración de proeza marcial o en el sutil enfoque en la habilidad defensiva y la velocidad, esta energía impulsa todo lo que el monje hace.</p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id13').style.display='block'" class="w3-button w3-indigo w3-round-xxlarge">Ver Detalles</button>
+        
+        <div id="id13" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-indigo"> 
+           <span onclick="document.getElementById('id13').style.display='none'" 
+           class="w3-button w3-indigo w3-xlarge w3-display-topright">&times;</span>
+           <h2>Monje</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Monje')">Monje</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgo de Clase13')">Rasgos de Clase</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Senda13')">Senda/s</button>
+          </div>
+        
+          <div id="Monje" class="w3-container city">
+           <h1>Monje</h1>
+           <p>Cualquiera que sea su disciplina, los monjes están unidos por su habilidad para utilizar mágicamente la energía que corre por sus cuerpos. Ya sea canalizada en una impactante demostración de proeza marcial o en el sutil enfoque en la habilidad defensiva y la velocidad, esta energía impulsa todo lo que el monje hace.
+            <br>
+            <strong>   Puntos de golpe: </strong>D8
+            <br>
+            <strong>  Requisitos para multiclase: </strong>Destreza 13 y Sabiduria 
+          </div>
+        
+        
+          <div id="Senda13" class="w3-container city">
+           <h2>Tradición Monástica (Nivel 3)</h2>
+           <p>
+            Cuando llegas al nivel 3, te encomiendas a una tradición monástica de tu elección. Tu tradición te otorga rasgos en el nivel 3 y de nuevo en los niveles 6, 11 y 17.</p>
+           <h3>Camino de la mano abierta  </h3>
+           <p>Los monjes de la mano abierta son los mejores maestros del combate con artes marciales, ya sea con o sin armas. Aprenden las técnicas para empujar y derribar a sus oponentes, manipular el ki para curarse y practicar meditación avanzada que puede protegerlos del daño.</p>
+           <h3>Camino de los cuatro Elementos</h3>
+           <p>Sigues una tradición monástica que te enseña cómo emplear los elementos. Cuando concentras tu ki, puedes alinear tu ser con las fuerzas de la creación y manipular los elementos a voluntad, como si fueran una extensión de tu propio cuerpo. Algunos miembros de esta tradición dedican su vida a un solo elemento, pero otros entrelazan varios elementos.<br>Muchos monjes de esta tradición se tatúan sus cuerpos con representaciones de su poder con el ki, generalmente como dragones enroscados, pero también como aves fénix, peces, plantas, montañas y olas.</p>
+           <h3>Camino de la Sombra</h3>
+           <p>Los monjes del camino de la sombra siguen una tradición que valora el sigilo y el subterfugio. Estos monjes pueden ser conocidos como ninjas o danzarines sombríos, ya que sirven como espías y asesinos.</p>
+          </div>
+        
+          <div class="w3-container w3-indigo w3-padding">
+            <button class="w3-button w3-right w3-white w3-border" 
+            onclick="document.getElementById('id13').style.display='none'">Cerrar</button>
+           </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+  
+    <button class="w3-button w3-red w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-red w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+ function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+ </script>
+ <script>
+  document.getElementsByClassName("tablink")[0].click();
+  
+  function openCity(evt, cityName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].classList.remove("w3-light-grey");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.classList.add("w3-light-grey");
+   }
+   </script>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--------------------------------- Razas Container ---------------------------------------->
+<div class="w3-container  ContenedorDeCartasRazas"id="Razas">
+   <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-red">Razas</span></h2>    
+   <div class="w3-content w3-display-container w3-center">
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Humano.png" class="w3-block w3-round" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modest">Humano</h3>
+      En los registros de la mayoría de los mundos, los humanos son la más joven de las razas comunes. Han llegado comparativa- mente tarde al mundo y sus vidas son más cortas que las de enanos, elfos y dragones. Y quizá sea precisamente por estas breves existencias por lo que los humanos aspiran a conseguir tanto como sean capaces en los años que se les han concedido.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id001').style.display='block'" class="w3-button w3-pale-red w3-round-xxlarge">Ver Detalles</button>
+        <div id="id001" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-pale-red"> 
+           <span onclick="document.getElementById('id001').style.display='none'" 
+           class="w3-button w3-red-pale w3-xlarge w3-display-topright">&times;</span>
+           <h2>Humanos</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Humanos')">Humanos</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas')">Subs Razas</button>
+          </div>
+        
+          <div id="Humanos" class="w3-container city">
+           <h1>Humanos</h1>
+           <p>En los registros de la mayoría de los mundos, los humanos son la más joven de las razas comunes. Han llegado comparativa- mente tarde al mundo y sus vidas son más cortas que las de enanos, elfos y dragones. Y quizá sea precisamente por estas breves existencias por lo que los humanos aspiran a conseguir tanto como sean capaces en los años que se les han concedido.  
+          </div>
+        
+          <div id="Rasgos-Raciales" class="w3-container city">
+           <h1>Rasgos raciales Humano</h1>
+           <p>Tu personaje Humano tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <br>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad: </strong>30 pierdes</li>
+
+           <li><strong>Edad: </strong>Alcanzan la madurez poco antes de los veinte años y viven menos de un siglo.</li>
+
+           <li><strong> Alineamiento: </strong> Los humanos no tienen tendencia a ningún alineamiento en particular. Entre ellos puede encontrarse tanto lo mejor como lo peor.</li>
+
+           <li><strong>Tamaño:</strong> La altura y complexión de los humanos varían enormemente de un individuo a otro, midiendo entre un poco menos de 5 pies y algo más de 6 pies de altura. Independientemente de cual sea tu altura concreta, tu tamaño es Mediano.</li>
+
+           <li><strong>Idiomas:</strong> Puedes hablar, leer y escribir común y un idioma adicional de tu elección. Los humanos normalmente aprenden los idiomas de aquellos con los que se relacionan, aunque sean dialectos poco conocidos. Les gusta adornar su habla con pala- bras tomadas de otras lenguas: maldiciones orcas, expresiones musicales elfas, términos militares enanos, y así.</li>
+           </ul>
+           </div>
+        
+           <div id="Sub-Razas" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           Algunas razas tienen subrazas. Los miembros de una subraza poseen los rasgos de la raza principal añadiendo los rasgos específicos de su subraza.<br>
+           <strong>Las subrazas de la raza Humano son las siguientes:</strong>
+           <br>
+           <ul class="w3-ul w3-card-4">
+            <li><h2>Humanos</h2>
+           La mayoría de los humanos son descendientes de pioneros, conquistadores, comerciantes, viajeros, refugiados y demás emigrantes. Por tanto, las tierras humanas son una amalgama de pueblos distintos en cuanto a aspectos físicos, culturales, religiosos y políticos.<br>
+           Los personajes Humano tienen unos rasgos comunes con otros miembros de su raza:
+           <br>
+           <strong>Modificadores: • +1 Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma</strong>
+          </li>
+            <li>
+            <h2>Humano (variante)</h2>
+            <br>
+            Si tu campaña usa las reglas opcionales de dotes, tu Dungeon Master quizá te permita utilizar estos atributos alternativos, que, entre todos, sustituyen al atributo Mejora de Característica original de los humanos.<br>
+            Los personajes Humano (variante) tienen unos rasgos comunes con otros miembros de su raza:
+            <br>
+            <strong>Modificadores: </strong> 
+            <br>
+            • +1 a dos características a escoger
+            <br> 
+            •Competencia: a escoger
+            <br>
+            •Dote adicional
+            </li>
+            </ul>
+          </div>
+
+        
+          <div class="w3-container w3-pale-red w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id001').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Elfa.png"  style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modest">Elfos</h3>
+      Los elfos circulan libremente por las tierras de los humanos, donde siempre son bienvenidos pero nunca se encuentran como en casa. Son gentes conocidas por su poesía, baile, canto, saber y artes mágicas, y gustan de las cosas cuya belleza sea natural y sencilla.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id003').style.display='block'" class="w3-button w3-green w3-round-xxlarge">Ver Detalles</button>
+        <div id="id003" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-green"> 
+           <span onclick="document.getElementById('id003').style.display='none'" 
+           class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
+           <h2>Elfo</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Elfos')">Elfos</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales003')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas003')">Subs Razas</button>
+          </div>
+        
+          <div id="Elfos" class="w3-container city">
+           <h1>Elfos</h1>
+           <p>Los elfos circulan libremente por las tierras de los humanos, donde siempre son bienvenidos pero nunca se encuentran como en casa. Son gentes conocidas por su poesía, baile, canto, saber y artes mágicas, y gustan de las cosas cuya belleza sea natural y sencilla.
+          </div>
+        
+          <div id="Rasgos-Raciales003" class="w3-container city">
+           <h1>Rasgos raciales Elfo</h1>
+           <p>Tu personaje Elfo tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad:</strong>  30 pies</li>
+
+           <li><strong>Visión en la oscuridad:</strong>Estás acostumbrado a la luz crepuscular de los bosques y al cielo nocturno. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante y, en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris.</li>
+
+           <li><strong> Ancestro feérico:</strong>Tienes ventaja en las tiradas de salvación para no quedar hechizado y no puedes quedarte dormido por ningún efecto mágico.</li>
+
+           <li><strong> Trance:</strong> Los elfos no necesitan dormir, en lugar de ello meditan profundamente y permanecen semiinconscientes durante cuatro horas al día (conocido como «trance»). Descansar de este modo te otorga los mismos beneficios que dormir ocho horas a un humano</li>
+
+           <li><strong>Modificadores:</strong> Los personajes Elfo obtienen los siguientes modificadores y competencias:
+           <br>
+           •+2 Destreza
+           <br>
+           •Competencia:Percepción
+          </li>
+           <ul>
+          </div>
+        
+          <div id="Sub-Razas003" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           Algunas razas tienen subrazas. Los miembros de una subraza poseen los rasgos de la raza principal añadiendo los rasgos específicos de su subraza.<br>
+           Las subrazas de la raza Elfo son las siguientes:
+           <br>
+           <ul class="w3-ul w3-card-4">
+            <li>
+           <h2>Alto elfo</h2>
+           <br>
+           Como un alto elfo, posees una mente aguda y un dominio de, al menos, los conceptos básicos de la magia. En muchos mundos de fantasía existen dos tipos de altos elfos. Uno es altivo y solitario, creyéndose superior a los no elfos e incluso a otros elfos. El otro es más común y más amigable, y a menudo se encuentra entre humanos y otras razas.
+           <br>
+           Los personajes Alto elfo tienen unos rasgos comunes con otros miembros de su raza:
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Truco:</strong>Conoces un truco de tu elección de la lista de conjuros de mago. La característica que usas para lanzarlo es Inteligencia.</li>
+
+            <li><strong>Idioma adicional:</strong> Puedes hablar, leer y escribir un idioma adicional de tu elección.</li>
+
+            <li><strong>Modificadores:</strong>
+            <br>
+            •+1 Inteligencia
+            <br>
+            •Competencia: Arco corto, Espada corta, Espada larga y Arco largo
+            <br>
+           </li>
+           </ul>
+           </li>
+           <li> <h2>Elfo de los bosques</h2>
+            <br>
+            Como elfo de los bosques, tu intuición y tus sentidos son agudos, y tus pies ligeros pueden transportarte rápida y sigilosamente a través de tus bosques natales. Esta categoría incluye a los elfos salvajes (grugach) de Greyhawk y a los Kagonesti de Dragonlance, al igual que a las razas conocidas como elfos de los bosques en Greyhawk y los Reinos Olvidados. En Faerûn, los elfos de los bosques (también conocidos como elfos salvajes, elfos verdes, o elfos del bosque) son aislacionistas y desconfían de los no elfos.
+            <br>
+            La piel de los elfos de los bosques tiende a un tono cobrizo, a veces con trazas de verde. Su cabello tiende al castaño y al negro, pero ocasionalmente es rubio o cobrizo. Sus ojos son verdes, marrones o color avellana
+            <br>
+            Los personajes Elfo de los bosques tienen unos rasgos comunes con otros miembros de su raza:
+            <br>
+            <ul class="w3-ul w3-card-4">
+            <li><strong> Ligero de pies:</strong>Tu velocidad base andando aumenta a 35 pies</li>
+            <br>
+            <li><strong>Máscara de la Espesura:</strong>Puedes intentar esconderte incluso cuando sólo estás ligeramente cubierto por el follaje, una lluvia fuerte, la nieve que cae, niebla y otros fenómenos naturales.</li>
+            <br>
+            <li><strong>Modificadores:</strong>
+            <br>
+            •+1 Sabiduria
+            <br>
+            •Competencia: Arco corto, Espada corta, Espada larga y Arco largo  
+            </li>
+            </ul>
+           </li>
+            <br>
+            <li>
+            <h2>Elfo oscuro (Drow)</h2>
+            <br>
+            Descendientes de una subraza anterior de elfos de piel oscura, los drow desaparecieron de la superficie del mundo siguiendo a la diosa Lolth por el camino de la maldad y la corrupción. Ahora han construido su propia civilización en las profundidades de la Infraoscuridad, bajo el llamado Camino de Lolth. También conocidos como elfos oscuros, los drow tienen la piel negra como la obsidiana pulida y los ojos pálidos (tan pálidos que se confunden con el blanco) en tonos de lila, plata, rosa, rojo y azul. Tienden a ser más pequeños y delgados que la mayoría de elfos.
+            <br>
+            Los aventureros drow son raros, y la raza no existe en todos los mundos. Consulta con tu Dungeon Master para ver si puedes jugar un personaje drow.
+            <br>
+            Los personajes Elfo oscuro (Drow) tienen unos rasgos comunes con otros miembros de su raza:
+            <ul class="w3-ul w3-card-4">
+            <li><strong>Visión en la Oscuridad Mejorada:</strong>Tu visión en la oscuridad tiene un radio de 120 pies</li>
+
+            <li><strong>Sensibilidad a la luz del sol:</strong>Tienes desventaja en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) basadas en la vista cuando el objetivo de tu ataque o lo que sea que intentes percibir está bajo luz del Sol directa.</li>
+
+            <li><strong>Magia Drow:</strong>Conoces el truco luces danzantes. Cuando alcances el tercer nivel puedes conjurar fuego feérico una vez por día. Cuando alcances el quinto nivel también puedes conjurar oscuridad una vez al día. Carisma es la característica de lanzamiento de conjuros para estos hechizos.</li>
+
+           <li> <strong>Modificadores:</strong>
+            <br>
+            •+1 Carisma
+            <br>
+            •Competencia: Espada corta, Estoque y Ballesta de mano
+           </li>
+            </ul>
+            </li>
+          </ul>
+
+          </div>
+        
+          <div class="w3-container w3-green w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id003').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Semielfo.png" style="max-width:285px; max-height: 265px;">
+      <h3 style="font-family:Modest">Semi-Elfos</h3>
+      Tu personaje semielfo tiene algunas cracterísticas en común con los elfos y otras que son únicas para los semielfos. Los semielfos comparten la inclinación caótica de su herencia élfica. Valoran tanto la libertad personal como la expresión de la creatividad y no demuestran ni amor por los líderes ni deseo de tener seguidores. Les irritan las reglas, se ofenden ante las exigencias de los demás y a veces son poco fiables o, al menos, impredecibles.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id004').style.display='block'" class="w3-button w3-teal w3-round-xxlarge">Ver Detalles</button>
+        <div id="id004" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-teal"> 
+           <span onclick="document.getElementById('id004').style.display='none'" 
+           class="w3-button w3-teal w3-xlarge w3-display-topright">&times;</span>
+           <h2>Semi-Elfo</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'SemiElfos')">Semi-Elfos</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales004')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas004')">Subs Razas</button>
+          </div>
+        
+          <div id="SemiElfos" class="w3-container city">
+           <h1>Elfos</h1>
+           <p>Tu personaje semielfo tiene algunas cracterísticas en común con los elfos y otras que son únicas para los semielfos. Los semielfos comparten la inclinación caótica de su herencia élfica. Valoran tanto la libertad personal como la expresión de la creatividad y no demuestran ni amor por los líderes ni deseo de tener seguidores. Les irritan las reglas, se ofenden ante las exigencias de los demás y a veces son poco fiables o, al menos, impredecibles.
+          </div>
+        
+          <div id="Rasgos-Raciales004" class="w3-container city">
+           <h1>Rasgos raciales Elfo</h1>
+           <p>Tu personaje Semielfo tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad:</strong>  30 pies</li>
+
+           <li><strong>Visión en la oscuridad:</strong> Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris.</li>
+
+           <li> <strong> Ancestro feérico:</strong>Tienes ventaja en las tiradas de salvación para no quedar hechizado y no puedes quedarte dormido por ningún efecto mágico.</li>
+
+           <li><strong> Trance:</strong> Los elfos no necesitan dormir, en lugar de ello meditan profundamente y permanecen semiinconscientes durante cuatro horas al día (conocido como «trance»). Descansar de este modo te otorga los mismos beneficios que dormir ocho horas a un humano</li>
+
+           <li><strong>Modificadores:</strong>
+           <br>
+           •+2 Carisma
+           <br>
+           •+1 a dos características a escoger entre Fuerza, Destreza, Constitución, Inteligencia y Sabiduría
+           </li>
+           </ul>
+          </div>
+        
+          <div id="Sub-Razas004" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           <strong>La raza Semielfo no tiene aún ninguna subraza.</strong>
+          </div>
+        
+          <div class="w3-container w3-teal w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id004').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Tiflin.png"  style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modest">Tiefling</h3>
+      Puede que los tieflings no tengan una tendencia innata hacia el mal, pero muchos de ellos acaban ahí. Maligna o no, una fuerza externa inclina a muchos tieflings hacia un alineamiento caótico.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id005').style.display='block'" class="w3-button w3-red w3-round-xxlarge">Ver Detalles</button>
+        <div id="id005" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-red"> 
+           <span onclick="document.getElementById('id005').style.display='none'" 
+           class="w3-button w3-red w3-xlarge w3-display-topright">&times;</span>
+           <h2>Tiefling</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Tiefling')">Tiefling</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales005')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas005')">Subs Razas</button>
+          </div>
+        
+          <div id="Tiefling" class="w3-container city">
+           <h1>Tiefling</h1>
+           <p>Los elfos circulan libremente por las tierras de los humanos, donde siempre son bienvenidos pero nunca se encuentran como en casa. Son gentes conocidas por su poesía, baile, canto, saber y artes mágicas, y gustan de las cosas cuya belleza sea natural y sencilla.
+          </div>
+        
+          <div id="Rasgos-Raciales005" class="w3-container city">
+           <h1>Rasgos raciales Tiefling</h1>
+           <p>Tu personaje Tiefling tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <br>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad:</strong>  30 pies</li>
+
+           <li><strong>Visión en la oscuridad:</strong> Gracias a tu herencia infernal, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris.</li>
+
+           <li><strong> Legado infernal:</strong>Conoces el truco Taumaturgia. Cuando alcanzas el nivel 3, puedes lanzar el conjuro Represión infernal como un conjuro de nivel 2 una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. Cuando alcanzas el nivel 5, puedes lanzar el conjuro Oscuridad una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. La característica con la que lanzas estos conjuros es Carisma.</li>
+  
+           <li><strong>Resistencia infernal:</strong> Tienes resistencia al daño por fuego.</li>
+          
+           <li><strong>Modificadores:</strong> Los personajes Tiefling obtienen los siguientes modificadores y competencias:
+           
+           •+2 Carisma
+           •+1 Inteligencia
+           </li>
+           </ul>
+          </div>
+        
+          <div id="Sub-Razas005" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           <strong>La raza Tiefling no tiene aún ninguna subraza.</strong>
+          </div>
+        
+          <div class="w3-container w3-red w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id005').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Draconico.png"  style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modest">Draconico</h3>
+      Tu herencia dracónida se manifiesta en una serie de rasgos que compartes con otros dracónidos. Los dracónidos tienden hacia los extremos en la guerra cósmica entre el bien y el mal. La mayoría son buenos, pero los que se ponen de lado del mal pueden ser terriblemente malignos.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id006').style.display='block'" class="w3-button w3-yellow w3-round-xxlarge">Ver Detalles</button>
+        <div id="id006" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-yellow"> 
+           <span onclick="document.getElementById('id006').style.display='none'" 
+           class="w3-button w3-yellow w3-xlarge w3-display-topright">&times;</span>
+           <h2>Draconico</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Draconico')">Draconico</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales006')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas006')">Subs Razas</button>
+          </div>
+        
+          <div id="Draconico" class="w3-container city">
+           <h1>Draconico</h1>
+           <p>Tu herencia dracónida se manifiesta en una serie de rasgos que compartes con otros dracónidos. Los dracónidos tienden hacia los extremos en la guerra cósmica entre el bien y el mal. La mayoría son buenos, pero los que se ponen de lado del mal pueden ser terriblemente malignos.
+          </div>
+        
+          <div id="Rasgos-Raciales006" class="w3-container city">
+           <h1>Rasgos raciales Dracónido</h1>
+           <p>Tu personaje Tiefling tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad:</strong>  30 pies</li>
+           
+           <li><strong> Antepasado dragón:</strong> Tienes un antepasado dragón. Elige un tipo de dragón de la tabla de antepasado dragón. Tu arma de aliento y tu resistencia al daño están determinadas por el tipo de dragón, como se indica en la tabla.
+           
+           <li>•<strong>Azul - Relámpago - Línea de 5 a 30 pies (salvación de Destreza)</strong></li>
+         
+           <li> •<strong>Blanco - Frío - Cono de 15 pies (salvación de Constitución)</strong></li>
+           
+          <li>•<strong>De bronce - Relámpago - Línea de 5 a 30 pies (salvación de Destreza)</strong></li>
+           
+           <li>•<strong>De cobre - Ácido - Línea de 5 a 30 pies (salvación de Destreza)</strong></li>
+           
+           <li>•<strong>De oro - Fuego - Cono de 15 pies (salvación de Destreza)</strong></li>
+           
+           <li>•<strong>De oropel - Fuego - Línea de 5 a 30 pies (salvación de Destreza)</strong></li>
+           
+           <li>•<strong>De plata - Frío - Cono de 15 pies (salvación de Constitución)</strong></li>
+           
+           <li>•<strong>Negro - Ácido - Línea de 5 a 30 pies (salvación de Destreza)</strong></li>
+           
+           <li><strong>Rojo - Fuego - Cono de 15 pies (salvación de Destreza)</strong></li>
+           
+           <li>•<strong>Verde - Veneno - Cono de 15 pies (salvación de Constitución)</strong></li>
+           
+           <li><strong>Arma de aliento:</strong>Puedes usar tu acción para exhalar energía destructiva. Tu antepasado dragón determina el tamaño, la forma y el tipo de daño de la exhalación.<br>
+           Cuando usas tu arma de aliento, todas las criaturas que se encuentren en el área de la exhalación deben hacer una tirada de salvación, según determine tu antepasado dragón. La CD de esta tirada de salvación es igual a 8 + tu modificador por Constitución + tu bonificador por competencia. Si la criatura falla la tirada, recibe 2d6 puntos de daño, y si tiene éxito, la mitad. El daño aumenta a 3d6 en el nivel 6, a 4d6 en el nivel 11 y a 5d6 en el nivel 16.
+           <br>
+           Después de usar tu arma de aliento, tienes que completar un descanso breve o prolongado para volver a utilizarla.</li>
+           
+           <li><strong>Resistencia al daño:</strong> . Tienes resistencia al tipo de daño asociado con tu antepasado dragón.</li>
+           
+           <li> <strong>Modificadores.</strong> Los personajes Dracónido obtienen los siguientes modificadores y competencias:
+           <br>
+           • +2 Fuerza  
+           <br>
+           • +1 Carisma
+          </li>
+           </ul>
+          </div>
+        
+          <div id="Sub-Razas006" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           <strong>La raza Draconica no tiene aún ninguna subraza.</strong>
+          </div>
+        
+          <div class="w3-container w3-yellow w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id006').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\SemiOrca.png" style="max-width:285px; max-height: 285px;">
+      <h3 style="font-family:Modest">Semi-Orco</h3>
+      Tu personaje semiorco tiene ciertos rasgos que derivan de su ancestro orco. Los semiorcos heredan la tendencia hacia el caos de sus progenitores orcos y no están muy inclinados hacia el bien. Los semiorcos que se crían entre orcos y que permanecen entre ellos suelen ser malignos.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id007').style.display='block'" class="w3-button w3-green w3-round-xxlarge">Ver Detalles</button>
+        <div id="id007" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-green"> 
+           <span onclick="document.getElementById('id007').style.display='none'" 
+           class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
+           <h2>Semi-Orco</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'SemiOrco')">Semi-Orco</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales007')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas007')">Subs Razas</button>
+          </div>
+        
+          <div id="SemiOrco" class="w3-container city">
+           <h1>Semi-Orco</h1>
+           <p>Tu personaje semiorco tiene ciertos rasgos que derivan de su ancestro orco. Los semiorcos heredan la tendencia hacia el caos de sus progenitores orcos y no están muy inclinados hacia el bien. Los semiorcos que se crían entre orcos y que permanecen entre ellos suelen ser malignos.
+          </div>
+        
+          <div id="Rasgos-Raciales007" class="w3-container city">
+           <h1>Rasgos raciales Dracónido</h1>
+           <p>Tu personaje Tiefling tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad:</strong>  30 pies</li>
+           
+           <li><strong>Visión en la oscuridad:</strong> Gracias a tu sangre orca, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris.</li>
+       
+           <li><strong>Resistencia implacable:</strong>Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes quedarte con 1 punto de golpe. No puedes volver a utilizar esta característica hasta que completes un descanso prolongado.</li>
+           
+           <li><strong>Ataques salvajes:</strong> Cuando saques un crítico en un ataque con un arma cuerpo a cuerpo, puedes volver a tirar uno de los dados de daño del arma y añadirlo al daño adicional del golpe crítico.</li>
+          
+           <li><strong>Modificadores.</strong>  Los personajes Semiorco obtienen los siguientes modificadores y competencias:
+           <br>
+           • Competencia: Intimidar
+           <br>
+           • +2 Fuerza
+           <br>
+           •+1 Constitución
+          </li>
+          </ul>
+          </div>
+        
+          <div id="Sub-Razas007" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           <strong>La raza de los Semi-orcos no tiene aún ninguna subraza.</strong>
+          </div>
+        
+          <div class="w3-container w3-green  w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id007').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Enano.png"  style="max-width:285px; max-height: 265px;">
+      <h3 style="font-family:Modest">Enano</h3>
+      Los enanos son conocidos por su habilidad en el arte de la guerra, su gran resistencia a los castigos, su conocimiento de los secretos de la tierra, su dedicación al trabajo y su capacidad para beber cerveza. Los enanos son gente poco dada a las risas o las bromas, y suelen mostrarse recelosos con los desconocidos; sin embargo, se comportan de forma generosa con los que se ganan su confianza.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id008').style.display='block'" class="w3-button w3-brown w3-round-xxlarge">Ver Detalles</button>
+        <div id="id008" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-brown"> 
+           <span onclick="document.getElementById('id008').style.display='none'" 
+           class="w3-button w3-brown w3-xlarge w3-display-topright">&times;</span>
+           <h2>Enano</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Enano')">Enano</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales008')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas008')">Subs Razas</button>
+          </div>
+        
+          <div id="Enano" class="w3-container city">
+           <h1>Enano</h1>
+           <p>Los enanos son conocidos por su habilidad en el arte de la guerra, su gran resistencia a los castigos, su conocimiento de los secretos de la tierra, su dedicación al trabajo y su capacidad para beber cerveza. Los enanos son gente poco dada a las risas o las bromas, y suelen mostrarse recelosos con los desconocidos; sin embargo, se comportan de forma generosa con los que se ganan su confianza.
+          </div>
+        
+          <div id="Rasgos-Raciales008" class="w3-container city">
+           <h1>Rasgos raciales Dracónido</h1>
+           <p>Tu personaje Enano tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <ul class="w3-ul w3-card-4">
+           <li> <strong>Velocidad:</strong> 25 pies</li>
+
+           </i><strong>Visión en la oscuridad:</strong> Tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris.</li>
+           
+           <li><strong>Fortaleza enana:</strong> Tienes ventaja en las tiradas de salvación contra venenos y eres resistente al daño por veneno.</li>
+           
+           <li><strong>Afinidad con la piedra:</strong>Cuando realices una prueba de Inteligencia (Historia) relacionada con el origen de una obra de mampostería, se considera que tienes competencia con la habilidad de Historia y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual.</li>
+           
+           <li><strong>Modificadores.</strong>
+           • Competencia: Hacha de mano, Hacha de batalla, Martillo de guerra y Martillo ligero
+           <br>
+           • +2 Constitución
+           <br>
+           • Tienes competencia con las herramientas de artesano que elijas entre: armero, cervecero o albañil.
+           </li>
+           </ul>
+          </div>
+        
+          <div id="Sub-Razas008" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           Algunas razas tienen subrazas. Los miembros de una subraza poseen los rasgos de la raza principal añadiendo los rasgos específicos de su subraza.
+           <br>
+           Las subrazas de la raza Enano son las siguientes:
+           <ul class="w3-ul w3-card-4">
+           <li><h2>Enano de las colinas</h2>
+           Los enanos de las colinas tienen unos sentidos agudos, una gran intuición y una fortaleza increíble.
+           <br>
+           Los personajes Enano de las colinas tienen unos rasgos comunes con otros miembros de su raza:
+           <br>
+           <strong>Modificadores:</strong>  Los personajes Enano de las colinas obtienen los siguientes modificadores y competencias:
+           <br>
+           • +1 Sabiduría
+           • Puntos de golpe adicionales
+          </li> 
+           </ul>
+           <ul class="w3-ul w3-card-4">
+           <li>
+           <h2>Enano de las montañas</h2>
+           Como enano de las montañas, eres fuerte y duro, acostumbrado a una vida difícil en un terreno áspero. Probablemente eres alto (para un enano) y tiendes hacia una coloración de piel más clara. Los enanos escudo del norte de Faerûn a la vez que el dominante clan Hylar y el noble clan Daewar de Dragonlance, son enanos de las montañas.
+           <br>
+           Los personajes Enano de las montañas tienen unos rasgos comunes con otros miembros de su raza:
+           <br>
+           <strong>Modificadores:</strong> Los personajes Enano de las montañas obtienen los siguientes modificadores y competencias:
+           <br>
+           • +2 Fuerza
+           <br>
+           • Competencia: Armadura ligera y Armadura intermedia
+           </li>
+           </ul>
+          </div>
+        
+          <div class="w3-container w3-brown w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id008').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Gnoma.png"  style="max-width:285px; max-height: 265px;">
+      <h3 style="font-family:Modest">Gnomo</h3>
+      Los gnomos son bienvenidos en todas partes como técnicos, alquimistas e inventores, pero muchos de ellos prefieren quedarse entre los suyos aunque sus habilidades estén muy demandadas. Viven en cómodas madrigueras excavadas bajo colinas onduladas y frondosas. Aunque en estos lugares abundan los animales, ir de caza es una pésima idea.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id009').style.display='block'" class="w3-button w3-purple w3-round-xxlarge">Ver Detalles</button>
+        <div id="id009" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-purple"> 
+           <span onclick="document.getElementById('id009').style.display='none'" 
+           class="w3-button w3-purple w3-xlarge w3-display-topright">&times;</span>
+           <h2>Gnomo</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Gnomo')">Gnomo</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales009')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas009')">Subs Razas</button>
+          </div>
+        
+          <div id="Gnomo" class="w3-container city">
+           <h1>Gnomo</h1>
+           <p>Los gnomos son bienvenidos en todas partes como técnicos, alquimistas e inventores, pero muchos de ellos prefieren quedarse entre los suyos aunque sus habilidades estén muy demandadas. Viven en cómodas madrigueras excavadas bajo colinas onduladas y frondosas. Aunque en estos lugares abundan los animales, ir de caza es una pésima idea.
+          </div>
+          <div id="Rasgos-Raciales009" class="w3-container city">
+           <h1>Rasgos raciales Gnomo</h1>
+           <p>Tu personaje Gnomo tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Velocidad:</strong> 25 pies</li>
+           
+           <li><strong>Visión en la oscuridad:</strong>Al estar acostumbrado a la vida subterránea, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris.</li>
+           
+           <li><strong>Astucia de gnomo:</strong> Tienes ventaja en todas las tiradas de salvación de Inteligencia, Sabiduría y Carisma contra magia.</li>
+            
+           <li><strong>Modificadores.</strong> Los personajes Gnomo obtienen los siguientes modificadores y competencias:
+           <br>          
+           • +2 Inteligencia
+           </li>
+           </ul>
+          </div>
+        
+          <div id="Sub-Razas009" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           Las subrazas de la raza Gnomo son las siguientes:
+           <br>
+           <ul class="w3-ul w3-card-4">
+            <li>
+           <h2>Gnomo de las rocas</h2>
+           Como gnomo de las rocas, tienes una creatividad y una dureza naturales que superan las de otros gnomos.
+           <br>
+           Los personajes Gnomo de las rocas tienen unos rasgos comunes con otros miembros de su raza:
+           <ul class="w3-ul w3-card-4">
+           <li><strong>Conocimiento de artificiero:</strong>  Cuando hagas una prueba de Inteligencia (Historia) relacionada con objetos mágicos, alquímicos o tecnológicos, puedes añadir tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual.</li>
+           
+           <li><strong>Constructor: </strong> Tienes competencia con herramientas de artesano (constructor). Con ellas puedes dedicar una hora de trabajo y emplear materiales por valor de 10 po para fabricar un mecanismo Diminuto (CA 5, 1 pg). El dispositivo deja de funcionar 24 horas después (a menos que dediques una hora a repararlo) o cuando uses una acción para desmantelarlo; en ambos casos puedes recuperar los materiales usados. Puedes tener hasta tres mecanismos de este tipo activos a la vez.</li>
+           
+           <li><strong>Juguete mecánico</strong>
+           <br>
+           Este juguete de cuerda tiene forma de animal, monstruo o persona. Puede ser una rana, un ratón, un pájaro, un dragón o un soldado. Cuando se coloca en el suelo, el juguete avanza 5 pies en cada uno de tus turnos hacia una dirección al azar. Hace ruido de acuerdo a la criatura que representa. Este dispositivo produce una diminuta llama que puedes usar para encender una vela, una antorcha o una hoguera. Usar el mecanismo requiere una acción.
+           </li>
+           <li>
+           <strong>Caja de música:</strong> Cuando se abre, esta caja de música toca una única canción a un volumen moderado. La caja deja de sonar cuando acaba la canción o cuando se cierra.
+           </li>
+           <li><strong> Modificadores.</strong> Los personajes Gnomo de las rocas obtienen los siguientes modificadores y competencias:
+           <br>
+           • +1 Constitución
+           <br>
+           • Competencia: Herramientas de artesano
+           </li>
+           </ul>
+           </li>
+           <li>
+           <h2>Gnomo de los bosques</h2>
+           Como gnomo del bosque, tienes una habilidad natural para las ilusiones, y una rapidez y cautela inherentes. En los mundos de D&D, los gnomos del bosque son raros y reservados. Se reúnen en comunidades ocultas en bosques selváticos, usando ilusiones y trucos para esconderse de las amenazas o para enmascarar sus huidas sin ser detectados. Los gnomos del bosque tienden a ser amistosos con otros habitantes de buen corazón del busque, y mantienen a los elfos y los seres feéricos buenos como sus aliados más importantes. Estos gnomos también son amigos de los animales pequeños del bosque y confían en ellos para que les informen de las amenazas que pueden rondar por sus tierras.
+           <br>
+           <br>
+           Los personajes Gnomo de los bosques tienen unos rasgos comunes con otros miembros de su raza: 
+           <ul class="w3-ul w3-card-4">
+           
+           <li><strong>Ilusionista Natural:</strong> Conoces el truco ilusión menor. Inteligencia es tu característica para realizar el conjuro.</li>
+           
+           <li><strong>Hablar con las Bestias Pequeñas:</strong>  A través de sonidos y gestos, puedes comunicar ideas simples a bestias Pequeñas o más pequeñas. Los gnomos de los bosques aman a los animales y frecuentemente tienen ardillas, tejones, conejos, topos, pájaros carpinteros y otras criaturas como adoradas mascotas.</li>
+           
+           <li><strong>Modificadores:</strong> • +1 Destreza
+           </li>
+           </ul>
+           </li>
+           </ul>
+          </div>
+        
+          <div class="w3-container w3-purple w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id009').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="Cartas002 w3-card mySlides002">
+      <img src="Imagenes\Razas\Mediano.png"  style="max-width:285px; max-height: 265px;">
+      <h3 style="font-family:Modest">Mediano</h3>
+      Tu personaje mediano tiene unos cuantos rasgos en común con el resto de medianos. La mayoría de los medianos son neutrales buenos. Como norma general, tienen buen corazón y son amables, odian ver a otros sufrir y no toleran la opresión. También son pacíficos y tradicionales, tienen una fuerte tendencia a apoyar a su comunidad y nunca renuncian a la comodidad de sus costumbres.
+      <div class="w3-container">
+        <button onclick="document.getElementById('id0010').style.display='block'" class="w3-button w3-amber w3-round-xxlarge">Ver Detalles</button>
+        <div id="id0010" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+          <header class="w3-container w3-amber"> 
+           <span onclick="document.getElementById('id0010').style.display='none'" 
+           class="w3-button w3-amber w3-xlarge w3-display-topright">&times;</span>
+           <h2>Mediano</h2>
+          </header>
+        
+          <div class="w3-bar w3-border-bottom">
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Mediano')">Mediano</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Rasgos-Raciales0010')">Rasgos Raciales</button>
+           <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Sub-Razas0010')">Subs Razas</button>
+          </div>
+        
+          <div id="Mediano" class="w3-container city">
+           <h1>Mediano</h1>
+           <p>Tu personaje mediano tiene unos cuantos rasgos en común con el resto de medianos. La mayoría de los medianos son neutrales buenos. Como norma general, tienen buen corazón y son amables, odian ver a otros sufrir y no toleran la opresión. También son pacíficos y tradicionales, tienen una fuerte tendencia a apoyar a su comunidad y nunca renuncian a la comodidad de sus costumbres.
+          </div>
+          <div id="Rasgos-Raciales0010" class="w3-container city">
+           <h1>Rasgos raciales Mediano</h1>
+           <p>Tu personaje Mediano tiene unos cuantos rasgos en común con el resto de miembros de su raza:</p>
+           <br> 
+           <ul class="w3-ul w3-card-4">
+
+           <li class="w3-padding-small"><strong>Velocidad:</strong>25 pies</li>
+ 
+           <li class="w3-padding-small" ><strong>Idiomas:</strong>Puedes hablar, leer y escribir común y mediano. El idioma mediano no es secreto, pero los medianos son reacios a compartirlo con los demás. Escriben muy poco, así que no tienen un corpus literario rico. Por el contrario, su tradición oral es muy amplia. Casi todos los medianos hablan común para conversar con la gente de la tierra en la que viven o por la que viajan.</li>
+           
+           <li class="w3-padding-small"><strong>Agilidad de los medianos:</strong> Puedes moverte por el espacio de cualquier criatura que tenga un tamaño mayor al tuyo.</li>
+            
+           <li class="w3-padding-small"><strong>Valiente:</strong> Tienes ventaja en las tiradas de salvación para no asustarte.</li>
+           
+           <li class="w3-padding-small"><strong>Afortunado:</strong>Cuando saques un 1 en 1d20 en una tirada de ataque, prueba de habilidad o tirada de salvación, puedes volver a tirar el dado, pero debes quedarte con el nuevo resultado.</li>
+           
+           <li class="w3-padding-small" >  <strong>Modificadores:</strong>  Los personajes Mediano obtienen los siguientes modificadores y competencias:
+           <br>
+           • +2 Destreza
+          </li> 
+          </div>
+        
+          <div id="Sub-Razas0010" class="w3-container city">
+           <h1>SUBRAZAS</h1>
+           Las subrazas de la raza Mediano son las siguientes:
+           <ul class="w3-ul w3-card-4">
+           <li>
+           <h2>Mediano Pies-ligeros</h2>
+           Los piesligeros pueden ocultarse fácilmente, incluso utilizando a otras personas como cobertura. Son amables y se llevan bien con los demás. Son la variedad de mediano más propensa a tener un espíritu viajero, y a menudo viven con otras razas o emprenden una vida nómada.
+           <br>
+           Los personajes Mediano Piesligeros tienen unos rasgos comunes con otros miembros de su raza:
+           <ul class="w3-ul w3-card-4">
+           
+           <li><strong> Sigiloso por naturaleza:</strong>  Puedes intentar esconderte incluso cuando solo te oculta una criatura de al menos una categoría de tamaño superior a la tuya.</li>
+           
+           <li><strong> Modificadores: </strong> • +1 Carisma</li>
+           
+           </ul>
+           <li>
+           <h2>Mediano Fornido</h2>
+           <br>
+           Como mediano fornido eres más duro que la mayoría y tienes algo de resistencia al veneno. Algunos dicen que los fornidos tienen sangre enana. En los Reinos Olvidados, estos medianos son llamados corazonesfuertes y son más comunes en el sur.
+           <br>
+           Los personajes Mediano Fornido tienen unos rasgos comunes con otros miembros de su raza:
+           <ul class="w3-ul w3-card-4">
+           <li><strong> Resistencia fornida:</strong> Tienes ventaja en tiradas de salvación contra veneno, y tienes resistencia contra daño de veneno.
+           </li>
+           <li><strong>Modificadores:</strong>• +1 Constitución     </li>
+           </ul>
+           </li>
+           </ul>
+          </div>
+        
+          <div class="w3-container w3-amber w3-padding">
+           <button class="w3-button w3-right w3-white w3-border" 
+           onclick="document.getElementById('id0010').style.display='none'">Cerrar</button>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <button class="w3-button w3-display-left w3-red" onclick="plusDivs002(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right w3-red" onclick="plusDivs002(1)">&#10095;</button>  
+</div>
+    
+    <script>
+      var slideIndex002 = 1;
+      showDivs002(slideIndex002);
+      
+      function plusDivs002(n) {
+        showDivs002(slideIndex002 += n);
+      }
+      
+      function showDivs002(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides002");
+        if (n > x.length) {slideIndex002 = 1}
+        if (n < 1) {slideIndex002 = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex002-1].style.display = "block";  
+      }
+      </script>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="w3-container" id="Recomendaciones">
+  <div class="w3-content w3-center" style="max-width:700px">
+    <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-red">Recomendaciones Finales</span></h2>
+    <p>Para finalizar queremos dejar recomendaciones de videos de Youtube para que se introduzcan con un poco de humor al tema,(aclaramos que son Sketchs)<br><strong>(Todos los videos tienen Subtitulos al español por si no entienden ingles!)</strong></p>
+   
+    <iframe width="750px" height="350px" src="https://www.youtube.com/embed/BF5gdvMyuOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    <iframe width="750px" height="350px" src="https://www.youtube.com/embed/GGSG4JIi5Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="750px" height="350px" src="https://www.youtube.com/embed/USCzLBrEzHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+<br>
+
+<div>
+<footer class="w3-container w3-red w3-padding-34 w3-center">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by Juan Ignacio Lupi</p>
+</footer>
+</div>
+</body>
+</html>
