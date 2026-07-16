@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto - Dungeons & Dragons 5ª Edición">
+    <title>Contacto | Dungeons & Dragons 5ª Edición</title>
+    
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="icon" type="image/png" href="img/Icono.png">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN (igual que en index) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/Icono.png" alt="Logo D&D">
+                <div>
+                    <h1>DUNGEONS & DRAGONS</h1>
+                    <p>5ª EDICIÓN</p>
+                </div>
+            </div>
+            
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="index.html#about">Sobre D&D</a>
+                <a href="index.html#como-jugar">Cómo Jugar</a>
+                <a href="index.html#clases">Clases</a>
+                <a href="index.html#razas">Razas</a>
+                <a href="contacto.html" class="active">Contacto</a>
+            </div>
+            
+            <button class="menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <!-- ====================== HERO CONTACTO ====================== -->
+    <header class="hero">
+        <img src="Imagenes/Portada.jpg" alt="Contacto" class="hero-bg">
+        <div class="hero-content">
+            <h1>Contacto</h1>
+            <p class="subtitle">¿Querés contarnos tu aventura o consultarnos algo?</p>
+        </div>
+    </header>
+
+    <!-- ====================== FORMULARIO  ====================== -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Envíanos tu mensaje</h2>
+        
+        <form action="#" method="POST" class="contact-form">
+            
+            <div class="form-grid">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+            </div>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- NUEVO: Fecha de la aventura -->
+            <label for="fecha">Fecha de tu aventura</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <!-- NUEVO: Número de jugadores -->
+            <label for="jugadores">Cantidad de jugadores en tu grupo</label>
+            <input type="number" id="jugadores" name="jugadores" min="2" max="8" value="4">
+
+            <!-- NUEVO: Select -->
+            <label for="tema">¿Sobre qué querés consultarnos?</label>
+            <select id="tema" name="tema" required>
+                <option value="">Selecciona una opción</option>
+                <option value="clases" selected>Clases y Arquetipos</option>
+                <option value="razas">Razas y Trasfondos</option>
+                <option value="reglas">Reglas y Mecánicas</option>
+                <option value="aventuras">Aventuras y Campañas</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <!-- NUEVO: Datalist -->
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" list="asuntos-list" required>
+            <datalist id="asuntos-list">
+                <option value="Dudas sobre creación de personaje"></option>
+                <option value="Cómo mejorar mi Dungeon Master"></option>
+                <option value="Recomendación de aventura"></option>
+                <option value="Problemas con reglas"></option>
+                <option value="Quiero unir un grupo"></option>
+            </datalist>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="8" required></textarea>
+            
+            <button type="submit" class="btn-primary">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
+    <footer class="footer">
+        <!-- Tu footer actual -->
+    </footer>
+
+    <!-- ====================== JAVASCRIPT MENÚ MÓVIL ====================== -->
+<script>
+// Menú responsive
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+
+if (menuBtn && menu) {
+    menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+}
+
+// Cerrar menú al clickear un enlace en móvil
+document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            menu.classList.remove('active');
+        }
+    });
+});
+</script>
+</body>
+</html>

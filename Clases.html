@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clases de Dungeons & Dragons 5ª Edición">
+    <title>Clases | Dungeons & Dragons 5ª Edición</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="icon" type="image/png" href="img/Icono.png">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/Icono.png" alt="Logo D&D">
+                <div>
+                    <h1>DUNGEONS & DRAGONS</h1>
+                    <p>5ª EDICIÓN</p>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="razas.html">Razas</a>
+                <a href="index.html#como-jugar">Cómo Jugar</a>
+            </div>
+            <button class="menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ====================== SECCIÓN CLASES ====================== -->
+        <section id="clases" class="section clases">
+            <div class="container">
+                <h2 class="section-title">Clases</h2>
+                
+                <p class="intro-text">
+                    En Dungeons & Dragons existen 12 clases principales. Cada una representa un arquetipo de héroe 
+                    con habilidades, estilo de juego y rol únicos dentro del grupo.
+                </p>
+
+                <div class="clases-grid">
+
+                    <!-- Bárbaro -->
+                    <div class="clase-card" onclick="showClaseModal('barbaro')">
+                        <img src="img/Clases/Barbaro.jpg" alt="Bárbaro">
+                        <h3>Bárbaro</h3>
+                        <p>Un guerrero salvaje que entra en furia para volverse más fuerte y resistente en combate.</p>
+                    </div>
+
+                    <!-- Bardo -->
+                    <div class="clase-card" onclick="showClaseModal('bardo')">
+                        <img src="img/Clases/Bardo.jpg" alt="Bardo">
+                        <h3>Bardo</h3>
+                        <p>Un artista versátil que usa música, palabras y magia para inspirar a sus aliados.</p>
+                    </div>
+
+                    <!-- Brujo -->
+                    <div class="clase-card" onclick="showClaseModal('brujo')">
+                        <img src="img/Clases/Brujo.jpg" alt="Brujo">
+                        <h3>Brujo</h3>
+                        <p>Un lanzador de conjuros que obtiene su poder de un pacto con un ser poderoso.</p>
+                    </div>
+
+                    <!-- Clérigo -->
+                    <div class="clase-card" onclick="showClaseModal('clerigo')">
+                        <img src="img/Clases/Clerigo.jpg" alt="Clérigo">
+                        <h3>Clérigo</h3>
+                        <p>Un canalizador de magia divina. Sirve a un dios y puede curar, proteger o destruir.</p>
+                    </div>
+
+                    <!-- Druida -->
+                    <div class="clase-card" onclick="showClaseModal('druida')">
+                        <img src="img/Clases/Druida.jpg" alt="Druida">
+                        <h3>Druida</h3>
+                        <p>Un guardián de la naturaleza capaz de transformarse en animales y lanzar conjuros.</p>
+                    </div>
+
+                    <!-- Explorador -->
+                    <div class="clase-card" onclick="showClaseModal('explorador')">
+                        <img src="img/Clases/Explorador.jpg" alt="Explorador">
+                        <h3>Explorador</h3>
+                        <p>Un rastreador experto en supervivencia, combates a distancia y conocimiento del terreno.</p>
+                    </div>
+
+                    <!-- Guerrero -->
+                    <div class="clase-card" onclick="showClaseModal('guerrero')">
+                        <img src="img/Clases/Guerrero.jpg" alt="Guerrero">
+                        <h3>Guerrero</h3>
+                        <p>El maestro del combate marcial. Versátil, resistente y experto en armas y armaduras.</p>
+                    </div>
+
+                    <!-- Hechicero -->
+                    <div class="clase-card" onclick="showClaseModal('hechicero')">
+                        <img src="img/Clases/Hechicero.jpg" alt="Hechicero">
+                        <h3>Hechicero</h3>
+                        <p>Un lanzador de conjuros innato. Su magia proviene de su sangre o de un evento mágico.</p>
+                    </div>
+
+                    <!-- Mago -->
+                    <div class="clase-card" onclick="showClaseModal('mago')">
+                        <img src="img/Clases/Mago.jpg" alt="Mago">
+                        <h3>Mago</h3>
+                        <p>El estudioso de la magia arcana. Posee el mayor repertorio de conjuros.</p>
+                    </div>
+
+                    <!-- Monje -->
+                    <div class="clase-card" onclick="showClaseModal('monje')">
+                        <img src="img/Clases/Monje.jpg" alt="Monje">
+                        <h3>Monje</h3>
+                        <p>Un guerrero marcial que usa su cuerpo como arma. Rápido, preciso y canaliza ki.</p>
+                    </div>
+
+                    <!-- Paladín -->
+                    <div class="clase-card" onclick="showClaseModal('paladin')">
+                        <img src="img/Clases/Paladin.jpg" alt="Paladín">
+                        <h3>Paladín</h3>
+                        <p>Un guerrero sagrado que combina combate marcial con magia divina y juramentos.</p>
+                    </div>
+
+                    <!-- Pícaro -->
+                    <div class="clase-card" onclick="showClaseModal('picaro')">
+                        <img src="img/Clases/Picaro.jpg" alt="Pícaro">
+                        <h3>Pícaro</h3>
+                        <p>Experto en sigilo, trampas y ataques por sorpresa. Ideal para daño y habilidades sociales.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>DUNGEONS & DRAGONS 5ª Edición</strong> — Página de Clases</p>
+            <p>
+                <a href="index.html">Volver al Inicio</a> • 
+                <a href="razas.html">Ver Razas</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="claseModal" class="modal">
+        <div class="modal-content clase-modal">
+            <span class="close-btn" onclick="closeClaseModal()">&times;</span>
+            <div id="modal-clase-content"></div>
+        </div>
+    </div>
+
+    <script>
+        function showClaseModal(clase) {
+            const modal = document.getElementById("claseModal");
+            const contentDiv = document.getElementById("modal-clase-content");
+            let html = "";
+
+            switch(clase) {
+                case "barbaro":
+                    html = `<h2>Bárbaro</h2><p class="descripcion">Un guerrero salvaje que canaliza su furia interior para volverse más fuerte, rápido y resistente en combate.</p>`;
+                    break;
+                case "bardo":
+                    html = `<h2>Bardo</h2><p class="descripcion">Un artista versátil que usa música, palabras y magia para inspirar a sus aliados.</p>`;
+                    break;
+                default:
+                    html = `<h2>${clase}</h2><p>Información detallada de la clase.</p>`;
+            }
+            contentDiv.innerHTML = html;
+            modal.style.display = "block";
+        }
+
+        function closeClaseModal() {
+            document.getElementById("claseModal").style.display = "none";
+        }
+    </script>
+
+<!-- ====================== JAVASCRIPT MENÚ MÓVIL ====================== -->
+<script>
+// Menú responsive
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+
+if (menuBtn && menu) {
+    menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+}
+
+// Cerrar menú al clickear un enlace en móvil
+document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            menu.classList.remove('active');
+        }
+    });
+});
+</script>
+</body>
+</html>

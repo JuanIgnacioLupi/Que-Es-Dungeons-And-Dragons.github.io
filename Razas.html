@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Razas de Dungeons & Dragons 5ª Edición">
+    <title>Razas | Dungeons & Dragons 5ª Edición</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="icon" type="image/png" href="img/Icono.png">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/Icono.png" alt="Logo D&D">
+                <div>
+                    <h1>DUNGEONS & DRAGONS</h1>
+                    <p>5ª EDICIÓN</p>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="clases.html">Clases</a>
+                <a href="index.html#como-jugar">Cómo Jugar</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <!-- ====================== SECCIÓN RAZAS ====================== -->
+        <section id="razas" class="section razas">
+            <div class="container">
+                <h2 class="section-title">Razas</h2>
+                
+                <p class="intro-text">
+                    En Dungeons & Dragons hay muchas razas jugables. Cada una tiene su propia historia, 
+                    rasgos especiales y forma de jugar.
+                </p>
+
+                <div class="razas-grid">
+                    <!-- Enano -->
+                    <div class="raza-card" onclick="showRazaModal('enano')">
+                        <img src="img/Razas/Enano.png" alt="Enano">
+                        <h3>Enano</h3>
+                        <p>Resistentes, duros y expertos en la forja.</p>
+                    </div>
+
+                    <!-- Gnomo -->
+                    <div class="raza-card" onclick="showRazaModal('gnomo')">
+                        <img src="img/Razas/Gnoma.png" alt="Gnomo">
+                        <h3>Gnomo</h3>
+                        <p>Creativos e ingeniosos.</p>
+                    </div>
+
+                    <!-- Mediano -->
+                    <div class="raza-card" onclick="showRazaModal('mediano')">
+                        <img src="img/Razas/Mediano.png" alt="Mediano">
+                        <h3>Mediano</h3>
+                        <p>Amables y afortunados.</p>
+                    </div>
+
+                    <!-- Humano -->
+                    <div class="raza-card" onclick="showRazaModal('humano')">
+                        <img src="img/Razas/Humano.png" alt="Humano">
+                        <h3>Humano</h3>
+                        <p>Adaptables y versátiles.</p>
+                    </div>
+
+                    <!-- Elfo -->
+                    <div class="raza-card" onclick="showRazaModal('elfo')">
+                        <img src="img/Razas/Elfa.png" alt="Elfo">
+                        <h3>Elfo</h3>
+                        <p>Gráciles y longevos.</p>
+                    </div>
+
+                    <!-- Semielfo -->
+                    <div class="raza-card" onclick="showRazaModal('semielfo')">
+                        <img src="img/Razas/SemiElfo.png" alt="Semielfo">
+                        <h3>Semielfo</h3>
+                        <p>Versátiles y carismáticos.</p>
+                    </div>
+
+                    <!-- Semiorco -->
+                    <div class="raza-card" onclick="showRazaModal('semiorco')">
+                        <img src="img/Razas/SemiOrca.png" alt="Semiorco">
+                        <h3>Semiorco</h3>
+                        <p>Fuertes y feroces.</p>
+                    </div>
+
+                    <!-- Dracónido -->
+                    <div class="raza-card" onclick="showRazaModal('draconido')">
+                        <img src="img/Razas/Draconico.png" alt="Dracónido">
+                        <h3>Dracónido</h3>
+                        <p>Descendientes de dragones.</p>
+                    </div>
+
+                    <!-- Tiefling -->
+                    <div class="raza-card" onclick="showRazaModal('tiefling')">
+                        <img src="img/Razas/Tiflin.png" alt="Tiefling">
+                        <h3>Tiefling</h3>
+                        <p>Con sangre infernal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>DUNGEONS & DRAGONS 5ª Edición</strong> — Página de Razas</p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Volver al Inicio</a> • 
+                <a href="clases.html">Ver Clases</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="razaModal" class="modal">
+        <div class="modal-content raza-modal">
+            <span class="close-btn" onclick="closeRazaModal()">&times;</span>
+            <div id="modal-raza-content"></div>
+        </div>
+    </div>
+
+    <script>
+        function showRazaModal(raza) {
+            const modal = document.getElementById("razaModal");
+            const contentDiv = document.getElementById("modal-raza-content");
+            let html = "";
+
+            switch(raza) {
+                case "enano":
+                    html = `<h2>Enano</h2><p>Resistentes, duros y expertos en la forja.</p>`;
+                    break;
+                case "elfo":
+                    html = `<h2>Elfo</h2><p>Gráciles, longevos y conectados con la magia.</p>`;
+                    break;
+                default:
+                    html = `<h2>${raza}</h2><p>Información de la raza.</p>`;
+            }
+            contentDiv.innerHTML = html;
+            modal.style.display = "block";
+        }
+
+        function closeRazaModal() {
+            document.getElementById("razaModal").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
