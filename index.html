@@ -6,14 +6,15 @@
     <meta name="description" content="Dungeons & Dragons 5ª Edición - Guía completa">
     <title>Dungeons & Dragons | 5ª Edición</title>
     
-    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="css/Estilos.css">
     <link rel="icon" type="image/png" href="img/Icono.png">
 </head>
 <body>
 
-    <!-- ====================== NAVEGACIÓN ====================== -->
+    <!-- ====================== NAVEGACIÓN RESPONSIVE ====================== -->
 <nav class="navbar">
     <div class="nav-container">
+        <!-- Logo -->
         <div class="logo">
             <img src="img/Icono.png" alt="Logo D&D">
             <div>
@@ -22,56 +23,23 @@
             </div>
         </div>
         
-        <div class="menu">
+        <!-- Menú Desktop + Mobile -->
+        <div class="menu" id="main-menu">
             <a href="index.html">Inicio</a>
-            <a href="#about">Sobre D&D</a>
-
-            <!-- Dropdown Principal: Cómo Jugar -->
-            <div class="dropdown">
-                <a href="#como-jugar" class="dropdown-btn">Cómo Jugar ▼</a>
-                <div class="dropdown-content">
-
-                    <a href="#como-jugar"><strong>Introducción al Juego</strong></a>
-                    <a href="#junta-un-grupo">→ Junta un Grupo</a>
-                    <a href="#dungeon-master">→ El Dungeon Master</a>
-                    <a href="#crear-personajes">→ Crear Personajes</a>
-                    <a href="#puntuaciones-caracteristica">→ Puntuaciones de Característica</a>
-                    <a href="#hacer-cosas">→ Hacer cosas (Dados)</a>
-                    <a href="#criticos">→ Críticos y Fallos</a>
-
-                    <hr>
-
-                    <a href="#seleccionar-aventura"><strong>Seleccione una aventura</strong></a>
-
-                    <hr>
-
-                    <a href="#como-ganas"><strong>Como ganas</strong></a>
-
-                    <hr>
-
-                    <a href="#alineaciones"><strong>Alineaciones</strong></a>
-                    <a href="#tabla-alineaciones">→ La tabla de alineación</a>
-                    <a href="#legal-vs-caotico">→ Legal vs Caótico</a>
-                    <a href="#bien-vs-mal">→ El Bien contra el Mal</a>
-                    <a href="#alineacion-animales-grupo">→ Alineación de animales y criaturas</a>
-
-                    <hr>
-
-                    <a href="#tres-pilares"><strong>Los Tres Pilares de la Aventura</strong></a>
-                </div>
-            </div>
-
+            <a href="index.html#about">Sobre D&D</a>
+            <a href="index.html#como-jugar">Cómo Jugar</a>
             <a href="clases.html">Clases</a>
             <a href="razas.html">Razas</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="contacto.html" class="active">Contacto</a>
             <a href="https://www.dndbeyond.com/" target="_blank">D&D Beyond</a>
         </div>
         
-        <button class="menu-btn" id="mobile-btn">☰</button>
+        <!-- Botón Hamburguesa -->
+        <button class="menu-btn" id="menu-toggle" aria-label="Menú">☰</button>
     </div>
 </nav>
 
-    <!-- ====================== BANNER FIJO + POSICIONAMIENTO ====================== -->
+<!-- ====================== BANNER FLOTANTE RESPONSIVE ====================== -->
 <div class="banner-fijo">
     <p>⚔️ <strong>¡Bienvenido a la 5ª Edición!</strong> Crea tu personaje y comienza tu aventura</p>
 </div>
@@ -298,21 +266,48 @@
                 <p>Jorge el Barbaro necesita levantar una piedra,el DM pide que tire un D20 y si sale mayor a 15 puede levantarla<br> *Tira dado* Sale 13 ,ahora es cuando se tiene en cuenta la tabla<br>Si Jorge el Barbaro tiene 16 de Fuerza o más podria levantar la piedra por que se sumaria (+3) a la tirada</p>
 
                 
-                <table class="stats-table">
-                    <caption><strong>Puntuaciones de características y modificadores</strong></caption>
-                    <tr>
-                        <th>Puntuacion</th>
-                        <th>1 </th><th> 2-3 </th><th> 4-5 </th><th> 6-7 </th><th> 8-9 </th><th> 10-11 </th>
-                        <th>12-13</th><th>14-15</th><th>16-17</th><th>18-19</th><th>20-21</th>
-                        <th>22-23</th><th>24-25</th><th>26-27</th><th>28-29</th><th>30</th>
-                    </tr>
-                    <tr>
-                        <th>Modificador</th>
-                        <th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th><th>+0</th>
-                        <th>+1</th><th>+2</th><th>+3</th><th>+4</th><th>+5</th>
-                        <th>+6</th><th>+7</th><th>+8</th><th>+9</th><th>+10</th>
-                    </tr>
-                </table>
+                <!-- TABLA RESPONSIVA -->
+<div class="table-wrapper">
+    <table class="stats-table">
+        <caption><strong>Puntuaciones de características y modificadores</strong></caption>
+        <thead>
+            <tr>
+                <th>Puntuación</th>
+                <th>1</th>
+                <th>2-3</th>
+                <th>4-5</th>
+                <th>6-7</th>
+                <th>8-9</th>
+                <th>10-11</th>
+                <th>12-13</th>
+                <th>14-15</th>
+                <th>16-17</th>
+                <th>18-19</th>
+                <th>20-21</th>
+                <th>22-23</th>
+                <th>24-25</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Modificador</th>
+                <td>-5</td>
+                <td>-4</td>
+                <td>-3</td>
+                <td>-2</td>
+                <td>-1</td>
+                <td>+0</td>
+                <td>+1</td>
+                <td>+2</td>
+                <td>+3</td>
+                <td>+4</td>
+                <td>+5</td>
+                <td>+6</td>
+                <td>+7</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
                 <h4><strong>Sumario de puntuaciones de característica</strong></h4>
                 <div class="grid-stats">
@@ -814,32 +809,23 @@ window.onclick = function(event) {
     if (event.target === modal) modal.style.display = "none";
 };
 
-// ====================== MENÚ MÓVIL (Versión más robusta) ======================
-document.addEventListener('DOMContentLoaded', function() {
-    const menuBtn = document.querySelector('.menu-btn');
-    const menu = document.querySelector('.menu');
+// Menú Responsive
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('main-menu');
 
-    if (menuBtn && menu) {
-        menuBtn.addEventListener('click', function(e) {
-            e.stopPropagation();
-            menu.classList.toggle('active');
-        });
+if (menuToggle && menu) {
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
 
-        // Cerrar al hacer click en enlaces
-        document.querySelectorAll('.menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                menu.classList.remove('active');
-            });
+    // Cerrar al clickear un enlace
+    menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.remove('active');
         });
+    });
+}
 
-        // Cerrar al hacer click fuera del menú
-        document.addEventListener('click', function(e) {
-            if (!menuBtn.contains(e.target) && !menu.contains(e.target)) {
-                menu.classList.remove('active');
-            }
-        });
-    }
-});
 </script>
 
 
